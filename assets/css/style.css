@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 body{
-    background-color: #145ED9;
+    background-color:lightcoral
     font-family: Josefin Sans sans-serif;
     color: aliceblue;
 }
 
 .main-header{
     text-decoration: overline underline;
-    color: aliceblue;
+    color: rgb(19, 130, 228);
     text-align: center;
     font-size: 75px;
+}
+#hero-image{
+    height: 600px;
+    background: url(../images/table-setting-1324449.jpg) no-repeat no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: ;
+  
+
+  
 }
