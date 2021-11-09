@@ -1,30 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-.table{
-    height: 800px;
-    width: 1200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 body{
-    background-color: rgb(14,20,128);
-    font-family: Josefin Sans sans-serif;
-    color:rgb(19, 130, 228) ;
+    background-image: url(../images/raw-salmon-fillets-and-ingredients-for-cooking-2210x1473.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:  Source Code Pro, monospace;
+    color:green;
+    min-height: 100%;
+    z-index: 2;
 }
 
 .main-header{
-    text-decoration: overline underline;
-    color: rgb(19, 130, 228);
+    text-decoration-style: double;
     text-align: center;
     font-size: 75px;
-    margin-top: auto;
-}
-
-
-#nav-bar{
-    font-size: 125%;
+    color:whitesmoke;
+    margin-left: 42%;
+    margin-bottom: 30px;
+    position: fixed;
+    z-index: 4;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -34,11 +28,28 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
 
+.table{
+    object-fit: cover;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#nav-bar{
+    font-size: 200%;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    
 }
 
 #nav-bar ul{
-    gap: 0 2em;
+    gap: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -65,17 +76,21 @@ body{
 
 #nav-bar a{
     text-decoration: none;
-    color: rgb(19, 130, 228);
+    color: white;
 }
 
 #nav-bar center{
     display: table;
     margin: 0 auto;
-
 }
 
 footer {
-    height: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 .social-networks {
@@ -87,8 +102,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: rgb(19, 130, 228);
+    color: whitesmoke;
 }
