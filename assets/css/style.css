@@ -7,7 +7,7 @@ body{
     font-family:  Source Code Pro, monospace;
     color:green;
     min-height: 100%;
-    z-index: 2;
+    z-index: 1;
 }
 
 .main-header{
@@ -85,16 +85,14 @@ body{
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
+    height: 150px;
+    position:absolute;
+    bottom:0;
 }
 
 .social-networks {
     text-align: center;
+    
 }
 
 .social-networks > li {
@@ -102,8 +100,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 200%;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: whitesmoke;
+    color: #3a3a3a;
+    bottom: 0;
 }
