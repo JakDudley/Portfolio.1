@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: gainsboro;
     font-family: Josefin Sans sans-serif;
     color:rgb(19, 130, 228) ;
 }
@@ -47,6 +47,10 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+}
+#table-button:hover{
+    background-color: black;
+    color: gainsboro;
 }
 
 #nav-bar li{
