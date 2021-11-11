@@ -55,7 +55,9 @@ body{
     text-decoration: none;
     font-size: 125px;
     font-family: 'Source Code Pro', monospace;
+    
 }
+
 
 #container{
   display: flex;
@@ -150,6 +152,9 @@ div ul {
 
 #container-menu  h1, h3 {
   text-align: center;
+  font-size: 20px;
+  font-style: unset;
+  font-display: 20px;
 }
 
 h3{
@@ -157,9 +162,17 @@ h3{
   text-emphasis-style: 20px;
 }
 
-#appetisers{
+#appetisers {
   text-align: center;
   border-bottom: black solid 5px;
+  border-width: medium;
+  border-bottom-color:rgb(221,181,103);
+}
+
+#mains{
+  text-align: center;
+  border-bottom: medium;
+  border-bottom-color: rgb(221,181,103);
   border-width: medium;
 }
 
