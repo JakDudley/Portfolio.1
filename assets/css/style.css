@@ -49,12 +49,10 @@ body{
   }
 
 .main-header{
-    width: 100%;
     color:rgb(221,181,103);
     position: relative;
     text-align: center;
     text-decoration: none;
-    margin: 50px;
     font-size: 125px;
     font-family: 'Source Code Pro', monospace;
 }
@@ -74,6 +72,11 @@ body{
 #form-div{
   display: block;
   text-align: center;
+}
+
+#form-title{
+  text-align: center;
+  text-decoration: solid;
 }
 
 input[type=text] {
@@ -144,5 +147,22 @@ div ul {
 #fa fa{
   color: whitesmoke;
 }
+
+#container-menu  h1, h3 {
+  text-align: center;
+}
+
+h3{
+  text-decoration: underline;
+  text-emphasis-style: 20px;
+}
+
+#appetisers{
+  text-align: center;
+  border-bottom: black solid 5px;
+  border-width: medium;
+}
+
+
 
 
