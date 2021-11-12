@@ -23,15 +23,14 @@ body, html {
 .navbar {
     position: fixed;
     width: 100%;
-    background-color: rgb(221,181,103)
-    overflow: auto;
+    background: transparent;
     top: 0;
     margin-top: 0;
   }
   
   .navbar a {
     float: left;
-    padding: 12px;
+    padding: 10px;
     color:whitesmoke;
     text-decoration: none;
     font-size: 17px;;
@@ -141,13 +140,12 @@ form{
     width: 100%;
     bottom: 0 auto;
     padding: 1rem;
-    background: rgb(221,181,103);
     background: transparent;
     
   }
   
   footer {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     position:fixed;
     bottom:0px;
@@ -163,20 +161,22 @@ div ul {
 
 .footer-main li{
   float: left;
-  padding: 6px 6px;
+  padding: px px;
   font-size: 125%;
   list-style-type: none;
 
 }
 
 .social-footer-icons ul li{
- padding: 0 90px 0 0;
+ padding: 0 60px 0 0;
  
 }
 
 #fa fa{
   color: whitesmoke;
 }
+
+/* Menu Styling */
 
 #container-menu  h1, h3 {
   text-align: center;
@@ -204,6 +204,43 @@ h3{
   border-width: medium;
 }
 
+/* Reviews */
+
+#review-form{
+  float: left;
+  padding-left: 20%;
+  
+}
+
+#review-title{
+  text-align: center;
+  background-color: chocolate;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.checked {
+  color: whitesmoke;
+}
+
+#review-page h4{
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20%;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#textarea{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: whitesmoke solid 2px;
+}
 
 
 
