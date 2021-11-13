@@ -278,16 +278,17 @@ h3{
 
 /* contact us page */
 
+
 #box-contact{
   background-color: white;
     color: black;
     width: 20%;
     height: 400px;
-    margin-top: 30px;
     margin-left: 70px;
     text-align: center;
     font-size: 50px;
 }
+
 
 #call-us{
   text-decoration: none;
@@ -301,6 +302,35 @@ h3{
 #lines-open{
   font-size: 2px;
 }
+
+#box-contact-email{
+  background-color: white;
+    color: black;
+    width: 20%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: center;
+    font-size: 50px;
+  
+}
+
+#google-map{
+ padding-left: 60rem;
+ padding-top: 30px;
+}
+
+#email-pos{
+  position: relative;
+  margin-left: 20px
+  ;
+}
+
+#box-contact-left #googel-map #box-contact{
+flex-basis: 33.333%;
+}
+
+
 
 
 
