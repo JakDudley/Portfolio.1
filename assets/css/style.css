@@ -108,7 +108,7 @@ height: 600px;
   flex-direction: row;
 }
 
-#front{
+#front, #left{
   display: flex;
   width: 25%;
   height: 25%;
