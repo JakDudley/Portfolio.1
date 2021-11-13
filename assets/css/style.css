@@ -332,6 +332,32 @@ h3{
   vertical-align: middle;
 }
 
+#email-input, #name-input, #comment-area{
+  padding:3px;
+  border-radius:10px;
+  width: 40rem;
+  border: none;
+}
 
+#contact-form{
+  text-align: center;
+}
 
+#submit{
+  background: black;
+  color:#E2D6BD;
+  border:1pxsolid#eee;
+  border-radius:20px;
+  box-shadow:5px5px5px#eee;
+  text-shadow:none;
+  font-size: medium;
+}
 
+#google-map{
+  padding-left: 30rem;
+  border: none;
+  width: value;
+  height: value;
+  
+  
+}
