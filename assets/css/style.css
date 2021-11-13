@@ -315,21 +315,22 @@ h3{
   
 }
 
-#google-map{
- padding-left: 60rem;
- padding-top: 30px;
+#email-po{
+  float: left;
+  width: 50%;
 }
 
-#email-pos{
-  position: relative;
-  margin-left: 20px
-  ;
+#parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
 }
 
-#box-contact-left #googel-map #box-contact{
-flex-basis: 33.333%;
+#box-contact {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
-
 
 
 
