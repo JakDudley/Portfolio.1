@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
 
 body {
-    background-color: #E2D6BD;
-    font-family: 'Dosis', sans-serif;
+    background-color: #e2d6bd;
+    font-family: "Dosis", sans-serif;
     min-height: 100%;
     z-index: 1;
     font-size: 1rem;
@@ -36,15 +36,14 @@ html {
     color: black;
     text-decoration: none;
     font-size: 17px;
-    ;
 }
 
 .navbar a:hover {
-    background-color: #E2D6BD;
+    background-color: #e2d6bd;
 }
 
 .active {
-    background-color: #E2D6BD;
+    background-color: #e2d6bd;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -77,8 +76,7 @@ html {
 
 .hero-image {
     height: 600px;
-    width: fit-content;
-    background-image: url("../images/becki\ helped.jpeg#");
+    width: fit-content background-image linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
 
 
     animation-name: hero-zoom;
@@ -131,7 +129,7 @@ html {
     text-decoration: solid;
 }
 
-input[type=text] {
+input[type="text"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -144,22 +142,19 @@ form {
     margin-right: auto;
     text-align: left;
     margin-top: 50px;
-    border-top: #E2D6BD solid 5px;
-    border: #E2D6BD solid 5px;
+    border-top: #e2d6bd solid 5px;
+    border: #e2d6bd solid 5px;
 }
-
 
 #timetable {
     text-align: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     box-sizing: 20px;
-
 }
 
 #table {
     display: inline-block;
     margin-bottom: 15%;
-
 }
 
 #timetable #table {
@@ -168,14 +163,11 @@ form {
     font-variant: small-caps;
 }
 
-
-
 .social-footer {
     width: 100%;
     bottom: 0 auto;
     padding: 1rem;
     background: transparent;
-
 }
 
 footer {
@@ -203,12 +195,10 @@ div ul {
     padding: px px;
     font-size: 125%;
     list-style-type: none;
-
 }
 
 .social-footer-icons ul li {
     padding: 0 60px 0 0;
-
 }
 
 #fa fa {
@@ -234,13 +224,12 @@ h3 {
     text-align: center;
     border-bottom: whitesmoke solid 5px;
     border-width: medium;
-
 }
 
 #mains {
     text-align: center;
     border-bottom: medium;
-    border-bottom-color: #E2D6BD;
+    border-bottom-color: #e2d6bd;
     border-width: medium;
 }
 
@@ -249,7 +238,6 @@ h3 {
 #review-form {
     float: left;
     padding-left: 20%;
-
 }
 
 #review-title {
@@ -259,7 +247,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .checked {
     color: whitesmoke;
@@ -284,7 +271,6 @@ h3 {
 
 /* contact us page */
 
-
 #box-contact {
     background-color: white;
     color: black;
@@ -294,7 +280,6 @@ h3 {
     text-align: center;
     font-size: 50px;
 }
-
 
 #call-us {
     text-decoration: none;
@@ -318,7 +303,6 @@ h3 {
     margin-left: 70px;
     text-align: center;
     font-size: 50px;
-
 }
 
 #email-po {
@@ -353,7 +337,7 @@ h3 {
 
 #submit {
     background: black;
-    color: #E2D6BD;
+    color: #e2d6bd;
     border: 1pxsolid#eee;
     border-radius: 20px;
     box-shadow: 5px5px5px#eee;
@@ -366,6 +350,4 @@ h3 {
     border: none;
     width: value;
     height: value;
-
-
 }
