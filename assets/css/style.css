@@ -66,7 +66,7 @@ html {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
-
+    width: auto;
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,7 +76,7 @@ html {
 
 .hero-image {
     height: 600px;
-    width: fit-content background-image linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
 
 
     animation-name: hero-zoom;
