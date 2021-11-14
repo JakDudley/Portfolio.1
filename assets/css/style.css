@@ -77,12 +77,13 @@ html {
 
 .hero-image {
     height: 600px;
-    width: fit-content background-image:url("../images/becki\ helped.jpeg#");
+    width: fit-content;
+    background-image: url("../images/becki\ helped.jpeg#");
 
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mod forwards;
+    animation-fill-mode: forwards;
 }
 
 @keyframes hero-zoom {
