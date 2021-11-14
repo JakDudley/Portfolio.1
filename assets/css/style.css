@@ -143,7 +143,14 @@ form {
 
 #timetable {
     text-align: center;
+    vertical-align: middle;
     font-family: "Dosis", sans-serif;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#timetable h3 {
+    text-decoration: none;
 }
 
 #table {
@@ -211,6 +218,7 @@ h3 {
     text-decoration: underline;
 }
 
+
 #appetisers {
     text-align: center;
     border-bottom: whitesmoke solid 5px;
@@ -229,14 +237,6 @@ h3 {
 #review-form {
     float: left;
     padding-left: 20%;
-}
-
-#review-title {
-    text-align: center;
-    background-color: chocolate;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .checked {
@@ -347,6 +347,10 @@ h3 {
         width: 100%;
     }
 
+    footer {
+        position: fixed;
+    }
+
 
     .main-header {
         font-size: 50px;
@@ -354,11 +358,20 @@ h3 {
 
     .hero-image {
         height: 200px;
+        animation: none;
+        width: 100%;
     }
+
 
     .navbar a {
         color: whitesmoke;
     }
+
+    #timetable {
+        top: 50%;
+        border-style: none;
+    }
+
 
     h2 {
         font-size: 15px;
@@ -370,26 +383,35 @@ h3 {
     }
 
     .navbar a {
-        float: none;
+        float: left;
         display: block;
         background: transparent;
     }
 
-    .navbar a:hover {
-        display: none;
-
-    }
 
     #form-div {
         text-align: center;
         vertical-align: middle;
         padding-left: 30px;
-        padding-right: 30px;
+        padding-bottom: 30px;
     }
+
+    #form-div textarea {
+        width: 300px;
+        height: 150px;
+
+    }
+
 
     .navbar i {
         display: none;
     }
+
+
+    #parent {
+        display: none;
+    }
+
 
 
 }

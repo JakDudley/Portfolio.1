@@ -39,12 +39,14 @@
             <form>
                 <h1 id="form-title">Reserve Your Table Now</h1>
                 <label for="fname"> <strong> Name</strong></label>
-                <input type="text" id="fname" name="firstname" required />
-                <br />
-
+                <input type="text" id="fname" name="firstname" required required style="font-size: 18pt; height: 40px; width: 320px" />
+                <hr>
                 <label for="email"><strong>Email</strong></label>
                 <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px" />
-                <br />
+                <hr>
+                <textarea name="comment" id="comment-area" rows="8" cols="8" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
+                <hr>
+
 
                 <label for="guests">Guests</label>
                 <select id="guests" name="guests" required>
@@ -64,6 +66,7 @@
             <br />
             <br />
             <div id="timetable">
+                <h3>Opening Hours</h3>
                 <table id="table">
                     <tr>
                         <th>Monday</th>
