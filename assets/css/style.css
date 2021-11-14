@@ -47,12 +47,7 @@ html {
     color: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-    }
-}
+
 
 .main-header {
     color: #E2D6BD;
@@ -346,7 +341,12 @@ h3 {
     border: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    body {
+        width: 100%;
+    }
+
 
     .main-header {
         font-size: 50px;
@@ -368,4 +368,28 @@ h3 {
     #left {
         display: none;
     }
+
+    .navbar a {
+        float: none;
+        display: block;
+        background: transparent;
+    }
+
+    .navbar a:hover {
+        display: none;
+
+    }
+
+    #form-div {
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+
+
+
+
 }
