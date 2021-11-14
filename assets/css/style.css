@@ -19,7 +19,8 @@ body {
 
 body,
 html {
-    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -234,6 +235,12 @@ h3 {
 
 /* Reviews */
 
+#form-review-title {
+    font-size: 30px;
+    font-style: oblique;
+}
+
+
 #review-form {
     float: left;
     padding-left: 20%;
@@ -344,7 +351,8 @@ h3 {
 @media screen and (max-width: 620px) {
 
     body {
-        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     footer {
@@ -411,6 +419,20 @@ h3 {
     #parent {
         display: none;
     }
+
+
+    #review-page {
+        align-items: center;
+        padding-left: 10rem;
+        size: 30px;
+    }
+
+    #review-form {
+        float: none;
+        padding-left: 0;
+    }
+
+
 
 
 
