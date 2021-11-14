@@ -149,7 +149,6 @@ form {
 #timetable {
     text-align: center;
     font-family: "Dosis", sans-serif;
-    box-sizing: 20px;
 }
 
 #table {
@@ -165,7 +164,7 @@ form {
 
 .social-footer {
     width: 100%;
-    bottom: 0 auto;
+    bottom: 0;
     padding: 1rem;
     background: transparent;
 }
@@ -192,7 +191,6 @@ div ul {
 
 .footer-main li {
     float: left;
-    padding: px px;
     font-size: 125%;
     list-style-type: none;
 }
@@ -212,12 +210,10 @@ h3 {
     text-align: center;
     font-size: 20px;
     font-style: unset;
-    font-display: 20px;
 }
 
 h3 {
     text-decoration: underline;
-    text-emphasis-style: 20px;
 }
 
 #appetisers {
@@ -338,9 +334,9 @@ h3 {
 #submit {
     background: black;
     color: #e2d6bd;
-    border: 1pxsolid#eee;
+    border: 1px solid #eee;
     border-radius: 20px;
-    box-shadow: 5px5px5px#eee;
+    box-shadow: 5px 5px 5px;
     text-shadow: none;
     font-size: medium;
 }
@@ -348,6 +344,4 @@ h3 {
 #google-map {
     padding-left: 30rem;
     border: none;
-    width: value;
-    height: value;
 }
