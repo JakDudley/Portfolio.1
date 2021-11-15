@@ -34,18 +34,18 @@ html {
 .navbar a {
     float: left;
     padding: 10px;
-    color: black;
+    color: #e2d6bd;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 .navbar a:hover {
-    background-color: #e2d6bd;
+    background-color: black;
 }
 
 .active {
-    background-color: #e2d6bd;
-    color: rgba(0, 0, 0, 0.5);
+    background-color: black;
+    color: #e2d6bd;
 }
 
 
@@ -172,39 +172,37 @@ form {
     background: transparent;
 }
 
-footer {
+.footer-main {
     text-align: left;
     text-decoration: none;
     position: fixed;
     bottom: 0px;
-    color: whitesmoke;
+    color: black;
     height: 60px;
+
 }
 
 #nav-text {
-    color: whitesmoke;
+    color: black;
     margin-right: 50%;
 }
 
 div ul {
     display: inline-block;
     margin: 25px;
-    padding: 0;
+    padding: 20px;
 }
 
 .footer-main li {
-    float: left;
     font-size: 125%;
     list-style-type: none;
+    display: inline-block;
 }
 
 .social-footer-icons ul li {
     padding: 0 60px 0 0;
 }
 
-#fa fa {
-    color: whitesmoke;
-}
 
 /* Menu Styling */
 
