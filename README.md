@@ -32,13 +32,19 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 To keep the professionalism of the site I kept certain features the same across each page this also makes navigating around easier for the user. 
  **Navbar**
 The Navbar appears on all pages, it has interactive links to all pages, home, menu, contact us and review. To make the user understand which page they are currently on I used a class of "active" to change the background color of the active page. To add to the user experience I implemented a :hover function, so when the user hovers over each page the background color is changed. For the media query of (Max-width: 620px;) I removed the :hover function so the hero image text was overlapped with the background color.
+ 
   ![Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg) ![Screen shot of navbar css](/assets/images/Nav-CSS.jpg) 
+
   **Hero Image** 
 The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements.
+  
   ![hero image display](/assets/images/hero-image-sc.jpg) 
+
 **Navbar**
 The navbar is placed within the footer elements to keep a consistent flow across all pages, I wanted to keep the nav bar clean and simple so it didnt distract the user from the actual content of the site, with it being a restaurant site i felt like the navbar wasnt all that important but still making it fixed and over each page. By just placing icons for the relevant soical media pages, twitter, instagram, pinterest and facebook i believe i keep the look of the site simple and also smart. 
+
 ![Nav bar image](/assets/images/Footer.jpg)
+
 
 
 
