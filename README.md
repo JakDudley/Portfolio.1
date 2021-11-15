@@ -17,7 +17,8 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 - Restaurant, I chose to go down the restaurant path purely because I've been in the hospitality industry for 7 years myself and chose this giving myself the advantage of content for the site. 
 - As I said being in the industry I know what the competition is, I know what the users what and desire on a restaurants site 
     - Customers expect, simple but yet elegancy, the better looking and organised website the higher the chance of them getting a better experience at the venue
-### Target Audience- My target audience is quite broad from; families to businesses and groups of friends, the easier the interaction and navigation the longer the user will choose to stay on the site and be more likely to return and book a table and if not to share to their peers. 
+### Target Audience
+- My target audience is quite broad from; families to businesses and groups of friends, the easier the interaction and navigation the longer the user will choose to stay on the site and be more likely to return and book a table and if not to share to their peers. 
 - Users that are looking for a new place to dine out who just want to see what information they need ie; booking a table, seeing the menu without having to complete a maze to find and all the needed information to get in touch if need be or even find us on a map. 
 
 ### Site Aims 
