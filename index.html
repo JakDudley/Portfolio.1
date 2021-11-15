@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="Castleia" content="Castleia Main Website" />
+    <link rel="apple-touch-icon" href="/assets/images/front image.jpg">
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://kit.fontawesome.com/fdb0145442.js" crossorigin="anonymous"></script>
     <title>Castleia</title>
@@ -25,7 +26,7 @@
     </header>
 
 
-    <div class="navbar">
+    <div class="navbar" aria-details="navigation across the website">
         <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
         <a href="menu.html"><i class="fab fa-elementor"></i> Menu</a>
         <a href="reviews.html"><i class="fas fa-star"></i> Reviews</a>
@@ -33,7 +34,7 @@
     </div>
 
     <div id="container">
-        <img id="front" src="assets/images/left.jpg" alt="happy family" />
+        <img id="front" src="/assets/images/left.jpg" alt="happy family" />
 
         <div id="form-div">
             <form>
@@ -44,7 +45,7 @@
                 <label for="email"><strong>Email</strong></label>
                 <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px" />
                 <hr>
-                <textarea name="comment" id="comment-area" rows="8" cols="8" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
+                <textarea name="comment" id="comment-area" rows="25" cols="50" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
                 <hr>
 
 
@@ -56,7 +57,7 @@
                     <option value="4">4</option>
                     <option value="5">5</option>
                 </select>
-                <label>Date</label>
+                <label for="datetime">Date</label>
                 <input type="date" id="datetime" name="datetime" required />
                 <label>Submit</label>
                 <input type="submit" />
@@ -65,8 +66,8 @@
             <br />
             <br />
             <br />
-            <div id="timetable">
-                <h3>Opening Hours</h3>
+            <div id="timetable" aria-selected="true">
+                <h2>Opening Hours</h2>
                 <table id="table">
                     <tr>
                         <th>Monday</th>
@@ -99,7 +100,7 @@
                 </table>
             </div>
         </div>
-        <img id="left" src="assets/images/right.jpg" alt="raw salmon" />
+        <img id="left" src="/assets/images/right.jpg" alt="raw salmon" />
     </div>
 
     <footer class="social-footer">
@@ -107,17 +108,16 @@
         <div class="social-footer-icons">
             <ul class="footer-main">
                 <li>
-                    <a href="https://www.facebook.com/" target="blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/" aria-label="Our Facebook Page" target="blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/?hl=en" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/?hl=en" aria-label="Our Instagram Page" target="blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://www.pinterest.com/" target="blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="https://www.pinterest.com/" aria-label="Our Pinterest Page" target="blank"> <i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/?lang=en" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/?lang=en" aria-label="Our Twitter Page" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>

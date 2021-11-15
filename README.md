@@ -1,13 +1,27 @@
-# Portfolio.1
-My First Portfolio
-Here I willshow what I have leanred over the last two modules, HTML and CSS
-I hope you enjoy! 
+# Castlia 
+Castlia is a restaurant that I have plucked out of thin air, to make this restaurant a reality I have created a user-friendly website. As Castlia is a professional place to visit I wanted to create a sleek, smart and professional layout to match the quality.  
 
-Whilst thinking of my porfolio subject I've decided to use a field im comrfotable with so I decided to make a restaurant of my own.
-I had a look at many sucsessful companise to see what the compettion is doing, with doing this i found how i want to style my own website. 
+I have created an interactive navigation bar placed above the hero image for easy navigation around the site.
 
-Starting off I made a simple structre with the <header> <nav> and <footer> elements so i knew where i wanted to place items within the page.
-After creating and styling the <h1> I needed to find a suitable image to attract and draw the attention of the user, i have linked the image at the bottom of this READ.me.
-I came across a issue when it came to placing the image to the centre of the page but after playing around, looking through the notes i took throughout my lessons I realised what i was doing wrong and soon fixed the issue.
-With my <nav>, I knew how i wanted it layed out but wasn't 100% sure how to reach my goal path, so i reached out to a friend I made on Slack, who i shall refrence down below, he pushed me and made me remember what i needed to 
-do along with the help of W3 Schools. 
+[website across multiple media] ()
+
+## Starting My Project 
+Before even thinking about what HTML and CSS I was going to be using I needed to think of a few items:
+1. Business type
+2. Target Audience
+3. Site Aims 
+4. Color Scheme 
+5. Navigation
+
+### Business Type 
+- Restaurant, I chose to go down the restaurant path purely because I've been in the hospitality industry for 7 years myself and chose this giving myself the advantage of content for the site. 
+- As I said being in the industry I know what the competition is, I know what the users what and desire on a restaurants site 
+    - Customers expect, simple but yet elegancy, the better looking and organised website the higher the chance of them getting a better experience at the venue
+### Target Audience- My target audience is quite broad from; families to businesses and groups of friends, the easier the interaction and navigation the longer the user will choose to stay on the site and be more likely to return and book a table and if not to share to their peers. 
+- Users that are looking for a new place to dine out who just want to see what information they need ie; booking a table, seeing the menu without having to complete a maze to find and all the needed information to get in touch if need be or even find us on a map. 
+
+### Site Aims 
+- When creating my site I wanted users to be aesthetically pleased
+- I wanted the customer to not be confused and redirect to another restaurant site
+- To offer the user an easy to navigate and accessible experience across what ever device they desire to use 
+

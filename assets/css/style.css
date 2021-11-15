@@ -269,7 +269,7 @@ h3 {
 
 /* contact us page */
 
-#box-contact {
+.box-contact {
     background-color: white;
     color: black;
     width: 20%;
@@ -314,7 +314,7 @@ h3 {
     text-align: center;
 }
 
-#box-contact {
+.box-contact {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
@@ -348,6 +348,15 @@ h3 {
     border: none;
 }
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 620px) {
 
     body {
@@ -373,6 +382,10 @@ h3 {
 
     .navbar a {
         color: whitesmoke;
+    }
+
+    .sidenav a {
+        font-size: 80%;
     }
 
     #timetable {
@@ -410,13 +423,16 @@ h3 {
 
     }
 
-
-    .navbar i {
-        display: none;
+    #call-us-page {
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
     }
 
 
-    #parent {
+
+
+    .navbar i {
         display: none;
     }
 
@@ -430,6 +446,19 @@ h3 {
     #review-form {
         float: none;
         padding-left: 0;
+    }
+
+    #parent {
+        height: 15px;
+        width: 15px;
+        font-size: 25px;
+    }
+
+    .box-contact {
+        margin-left: 0%;
+        height: 30px;
+        width: 30px;
+        font-size: 25px;
     }
 
 
