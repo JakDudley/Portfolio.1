@@ -27,8 +27,8 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 - To offer the user an easy to navigate and accessible experience across what ever device they desire to use 
 ### Color Scheme 
  - When deciding the color scheme I wanted to make the site look smart and fresh as well as professional, to do this I stuck to two main colors one of which is #e2d6bd as the background and #F5F5F5 as the navbar color along with styles for hover  
-! [Screen shot of navbar css](/assets/images/Nav-CSS.jpg) 
-! [Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg)
+![Screen shot of navbar css](/assets/images/Nav-CSS.jpg) 
+![Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg)
 
 
 
