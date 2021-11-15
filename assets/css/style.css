@@ -279,6 +279,12 @@ h3 {
     font-size: 50px;
 }
 
+.box-contact {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
 #call-us {
     text-decoration: none;
 }
@@ -292,16 +298,6 @@ h3 {
     font-size: 2px;
 }
 
-#box-contact-email {
-    background-color: white;
-    color: black;
-    width: 20%;
-    height: 400px;
-    margin-top: 30px;
-    margin-left: 70px;
-    text-align: center;
-    font-size: 50px;
-}
 
 #email-po {
     float: left;
@@ -314,11 +310,7 @@ h3 {
     text-align: center;
 }
 
-.box-contact {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
-}
+
 
 #email-input,
 #name-input,
@@ -450,15 +442,13 @@ h3 {
 
     #parent {
         height: 15px;
-        width: 15px;
+        width: 100%;
         font-size: 25px;
     }
 
-    .box-contact {
-        margin-left: 0%;
-        height: 30px;
-        width: 30px;
-        font-size: 25px;
+
+    #contact-form {
+        display: none;
     }
 
 
