@@ -100,6 +100,9 @@ html {
     color: #E2D6BD;
 }
 
+#welcome-text {
+    text-align: center;
+}
 
 #container {
     display: flex;
