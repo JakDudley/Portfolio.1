@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
 
+a:hover {
+    cursor: pointer;
+}
+
+.line-break-below {
+    padding-bottom: 0.875rem;
+}
+
+.line-break-top-bottom {
+    padding: 0.875rem 0;
+}
+
 body {
     background-color: #e2d6bd;
     font-family: "Dosis", sans-serif;

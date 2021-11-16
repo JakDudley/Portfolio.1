@@ -50,7 +50,32 @@ Update - 16/11/2021 I have made the nav bar have bigger font and changed the tex
 Across the site i have used two fonts:
                               -  Source Code Pro 
                               -  Dosis
-I used these two fonts                               
+I used these two fonts as they compliment each other quite well and keep to my style of simple, professinal  and elegant. 
+All of the fonts I used were sourced from Google Fonts as stated in the credits at the bottom of the page. 
+
+Across the site i used many icons to make the site work for all auidinces aswell as making navigation easier. 
+All icons I used were from Font Awesome, they are refrenced in the credits.
+
+#
+Each page has its own content and design 
+## Home Page 
+
+**Home Page content** 
+- As this is the first page the user loads into i needed to make it look classy and appealing. 
+- I typed up phrases to make the customer feel good, i also used capitalization on the word "you" to grab the users attention and involve them within the site.
+- I've includede three seperate images to catch the users attention by making them bright and related to the content written above, i used style to have them all line up next to rach other with the same zoom effect that i used on the hero image.
+![Screenshot of home page](/assets/images/homepage-ss.png) 
+**Menu Page**
+- The layout of this page was crucial, although it isnt packed with images, videos and links, the purpose of the site entirety is to get the customers falling in love with the food. To make them purley fall in love with food, i've centered the entire menu and made it easier to read with different header elements. 
+- This page also uses icons to display that different dierty needs are met, making the site more applicable for a wider range of user.
+![Screenshot of menu page](/assets/images/homepage-ss.png)
+**Review page**
+-On this page I made the content read left to right so the user is drawn to filling in the review form. 
+-I used placeholders for each form input type to make the users experince easier. 
+-Each field is reuqested to put a stop to false infomation being inputed. 
+![Screenshot of menu page](/assets/images/review-ss.png)
+
+
 
 
 
