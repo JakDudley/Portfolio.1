@@ -33,7 +33,9 @@ To keep the professionalism of the site I kept certain features the same across 
  **Navbar**
 The Navbar appears on all pages, it has interactive links to all pages, home, menu, contact us and review. To make the user understand which page they are currently on I used a class of "active" to change the background color of the active page. To add to the user experience I implemented a :hover function, so when the user hovers over each page the background color is changed. For the media query of (Max-width: 620px;) I removed the :hover function so the hero image text was overlapped with the background color.
  
-  ![Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg) ![Screen shot of navbar css](/assets/images/Nav-CSS.jpg) 
+  ![Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg) ![Screen shot of navbar css](/assets/images/Nav-CSS.jpg)
+  <!-- Add testing of old screen shots to new ones with new edits for nav bar and footer -->
+
 
   **Hero Image** 
 The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements.
@@ -42,8 +44,19 @@ The hero image is shown at the top of each page (below the nav), by continuing t
 
 **Navbar**
 The navbar is placed within the footer elements to keep a consistent flow across all pages, I wanted to keep the nav bar clean and simple so it didnt distract the user from the actual content of the site, with it being a restaurant site i felt like the navbar wasnt all that important but still making it fixed and over each page. By just placing icons for the relevant soical media pages, twitter, instagram, pinterest and facebook i believe i keep the look of the site simple and also smart. 
+Update - 16/11/2021 I have made the nav bar have bigger font and changed the text color to make the contrast better when the user is scrolling.
 
-![Nav bar image](/assets/images/Footer.jpg)
+## Icons and Font use 
+Across the site i have used two fonts:
+                              -  Source Code Pro 
+                              -  Dosis
+I used these two fonts                               
+
+
+
+                    
+
+
 
 
 

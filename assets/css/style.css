@@ -32,24 +32,33 @@ html {
     float: left;
     padding: 10px;
     color: black;
-
     font-size: 22px;
 }
 
+
+
 .navbar a {
-    color: black;
+    color: #e2d6bd;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #e2d6bd;
-    color: black;
+    font-size: 22px;
+    color: #e2d6bd;
+    background-color: black;
+    border: black;
+
+
 }
 
 .active {
-    background-color: #e2d6bd;
-    color: black;
+    color: #e2d6bd;
+    background-color: black;
+
 }
+
+
+
 
 
 
@@ -246,13 +255,10 @@ div ul {
 }
 
 
-
-
 .social-footer-icons ul li {
     padding: 0 60px 0 0;
 }
 
-/*  */
 
 
 
@@ -335,6 +341,10 @@ h3 {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
+}
+
+#mobile-view {
+    font-size: 0rem;
 }
 
 #call-us {
@@ -423,14 +433,10 @@ h3 {
         width: 100%;
     }
 
-
-    .navbar a {
-        color: whitesmoke;
+    .index-img {
+        display: none;
     }
 
-    .sidenav a {
-        font-size: 80%;
-    }
 
     #timetable {
         top: 50%;
@@ -449,9 +455,13 @@ h3 {
 
     .navbar a {
         float: left;
+        text-align: center;
         display: block;
-        background: transparent;
+        background: black;
+        color: whitesmoke;
     }
+
+
 
 
     #form-div {
@@ -466,14 +476,6 @@ h3 {
         height: 150px;
 
     }
-
-    #call-us-page {
-        text-align: center;
-        text-decoration: none;
-        list-style: none;
-    }
-
-
 
 
     .navbar i {
@@ -492,17 +494,39 @@ h3 {
         padding-left: 0;
     }
 
+    #contact-form {
+        display: inline-block;
+        inline-size: 20px;
+    }
+
+    #contact-form input {
+        width: 50%;
+    }
+
+
     #parent {
         height: 15px;
         width: 100%;
         font-size: 25px;
     }
 
+    #mobile-view {
+        text-align: center;
+        font-size: 100%;
+        font-display: 20px;
+        text-decoration: solid;
+    }
 
-    #contact-form {
+    .box-contact {
         display: none;
     }
 
+    #google-map iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        left: 20px;
+    }
 
 
 
