@@ -31,7 +31,7 @@ html {
     margin-top: 0;
 }
 
-.navbar a {
+.navbar {
     float: left;
     padding: 10px;
     color: #e2d6bd;
@@ -43,7 +43,7 @@ html {
     background-color: black;
 }
 
-.active {
+#active {
     background-color: black;
     color: #e2d6bd;
 }
