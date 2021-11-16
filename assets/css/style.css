@@ -102,7 +102,42 @@ html {
 
 #welcome-text {
     text-align: center;
+    padding-top: 5px;
 }
+
+
+#ingredients h3 {
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+
+.index-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.index-img {
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes index-img {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
 
 #container {
     display: flex;
@@ -170,6 +205,7 @@ form {
 
 .social-footer {
     width: 100%;
+    height: fit-content;
     bottom: 0;
     padding: 1rem;
     background: transparent;
