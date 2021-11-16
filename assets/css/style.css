@@ -5,23 +5,13 @@ a:hover {
     cursor: pointer;
 }
 
-.line-break-below {
-    padding-bottom: 0.875rem;
-}
-
-.line-break-top-bottom {
-    padding: 0.875rem 0;
-}
-
+/* Targets the entire body of the site. */
 body {
     background-color: #e2d6bd;
     font-family: "Dosis", sans-serif;
     min-height: 100%;
     z-index: 1;
     font-size: 1rem;
-}
-
-body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -35,6 +25,7 @@ html {
     overflow-x: hidden;
 }
 
+/* Navbar styling rules */
 .navbar {
     position: fixed;
     width: 100%;
@@ -47,33 +38,25 @@ html {
     font-size: 22px;
 }
 
-
-
 .navbar a {
     color: #e2d6bd;
     text-decoration: none;
 }
 
+/* Hover and active features for the navbar */
 .navbar a:hover {
     font-size: 22px;
     color: #e2d6bd;
     background-color: black;
     border: black;
-
-
 }
 
 .active {
     color: #e2d6bd;
     background-color: black;
-
 }
 
-
-
-
-
-
+/* Header and hero-image styling rules */
 .main-header {
     color: #E2D6BD;
     position: relative;
@@ -81,7 +64,6 @@ html {
     text-decoration: none;
     font-size: 125px;
     font-family: 'Source Code Pro', monospace;
-
 }
 
 .hero-image {
@@ -94,6 +76,7 @@ html {
     position: relative;
 }
 
+/* hero -image animation sytling */
 .hero-image {
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
@@ -114,7 +97,6 @@ html {
     }
 }
 
-
 .hero-text {
     text-align: center;
     position: absolute;
@@ -124,18 +106,17 @@ html {
     color: #E2D6BD;
 }
 
+/* Home page text styling */
 #welcome-text {
     text-align: center;
     padding-top: 5px;
 }
-
 
 #ingredients h3 {
     text-align: center;
     padding-top: 30px;
     text-decoration: none;
 }
-
 
 .index-img {
     display: flex;
@@ -212,7 +193,7 @@ form {
     border-radius: 15px;
 }
 
-#timetable h3 {
+#timetable h2 {
     text-decoration: none;
 }
 
@@ -227,6 +208,7 @@ form {
     font-variant: small-caps;
 }
 
+/* footer styling */
 .social-footer {
     width: 100%;
     height: fit-content;
@@ -234,8 +216,6 @@ form {
     padding: 1rem;
     background: transparent;
 }
-
-
 
 .footer-main {
     text-align: left;
@@ -272,11 +252,7 @@ div ul {
 }
 
 
-
-
-
-
-/* Menu Styling */
+/* Menu PageStyling */
 
 #container-menu h1,
 h3 {
@@ -288,7 +264,6 @@ h3 {
 h3 {
     text-decoration: underline;
 }
-
 
 #appetisers {
     text-align: center;
@@ -303,13 +278,12 @@ h3 {
     border-width: medium;
 }
 
-/* Reviews */
+/* Reviews Page styling */
 
 #form-review-title {
     font-size: 30px;
     font-style: oblique;
 }
-
 
 #review-form {
     float: left;
@@ -338,7 +312,6 @@ h3 {
 }
 
 /* contact us page */
-
 .box-contact {
     background-color: white;
     color: black;
@@ -372,7 +345,6 @@ h3 {
     font-size: 2px;
 }
 
-
 #email-po {
     float: left;
     width: 50%;
@@ -383,8 +355,6 @@ h3 {
     padding: 2rem 2rem;
     text-align: center;
 }
-
-
 
 #email-input,
 #name-input,
@@ -409,20 +379,14 @@ h3 {
     font-size: medium;
 }
 
-#google-map {
-    padding-left: 30rem;
-    border: none;
+#google.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
+/* media querys */
 @media screen and (max-width: 620px) {
 
     body {
@@ -527,6 +491,8 @@ h3 {
         font-size: 100%;
         font-display: 20px;
         text-decoration: solid;
+        background-color: white;
+        box-shadow: black 0 0 30 0;
     }
 
     .box-contact {
@@ -535,8 +501,6 @@ h3 {
 
     #google-map iframe {
         position: relative;
-        overflow: hidden;
-        width: 100%;
         left: 20px;
     }
 

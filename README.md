@@ -56,8 +56,7 @@ All of the fonts I used were sourced from Google Fonts as stated in the credits 
 Across the site i used many icons to make the site work for all auidinces aswell as making navigation easier. 
 All icons I used were from Font Awesome, they are refrenced in the credits.
 
-#
-Each page has its own content and design 
+# Each page has its own content and design 
 ## Home Page 
 
 **Home Page content** 
@@ -74,6 +73,7 @@ Each page has its own content and design
 -I used placeholders for each form input type to make the users experince easier. 
 -Each field is reuqested to put a stop to false infomation being inputed. 
 ![Screenshot of menu page](/assets/images/review-ss.png)
+
 
 
 
