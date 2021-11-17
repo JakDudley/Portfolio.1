@@ -29,7 +29,7 @@ html {
 .navbar {
     position: fixed;
     width: 100%;
-    background: transparent;
+    background: rgb(255, 255, 255, 0.4);
     top: 0;
     margin-top: 0;
     float: left;
@@ -123,14 +123,13 @@ html {
     align-items: center;
     justify-content: center;
     padding-top: 2%;
+    z-index: 1;
 }
 
 .index-img {
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes index-img {
@@ -142,7 +141,6 @@ html {
         transform: scale(1);
     }
 }
-
 
 #container {
     display: flex;
@@ -211,19 +209,26 @@ form {
 /* footer styling */
 .social-footer {
     width: 100%;
-    height: fit-content;
+    height: 50px;
     bottom: 0;
     padding: 1rem;
-    background: transparent;
+    background-color: rgb(255, 255, 255, 0.4);
+    position: fixed;
 }
 
 .footer-main {
-    text-align: left;
-    text-decoration: none;
     position: fixed;
+    background: rgb(255, 255, 255, 0.1);
+    text-align: left;
     bottom: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
     color: black;
-    height: 60px;
+    font-size: 22px;
+    height: 2rem;
+
 }
 
 .footer-main :hover {
@@ -231,13 +236,14 @@ form {
     color: #e2d6bd;
     box-shadow: 0 0 5px #e2d6bd;
     text-shadow: 0 0 5px black;
-
 }
 
 div ul {
     display: inline-block;
     margin: 25px;
     padding: 20px;
+    width: 100%;
+
 }
 
 .footer-main li {
@@ -248,8 +254,9 @@ div ul {
 
 
 .social-footer-icons ul li {
-    padding: 0 60px 0 0;
+    padding: 0 60px 50px 0;
 }
+
 
 
 /* Menu PageStyling */
@@ -263,6 +270,9 @@ h3 {
 
 h3 {
     text-decoration: underline;
+    border-bottom: medium;
+    border-bottom-color: #e2d6bd;
+    border-width: medium;
 }
 
 #appetisers {
@@ -379,11 +389,9 @@ h3 {
     font-size: medium;
 }
 
-#google.map {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#google-map {
     text-align: center;
+
 }
 
 /* media querys */
@@ -396,6 +404,11 @@ h3 {
 
     footer {
         position: fixed;
+        background: none;
+    }
+
+    .footer.main {
+        background: none;
     }
 
 
@@ -407,6 +420,7 @@ h3 {
         height: 200px;
         animation: none;
         width: 100%;
+        top: 2rem;
     }
 
     .index-img {
@@ -429,12 +443,23 @@ h3 {
         display: none;
     }
 
+    .social-footer {
+        background: none;
+        padding-left: 5%;
+        font-size: small;
+        margin: 1rem;
+        top: 5%;
+
+    }
+
     .navbar a {
         float: left;
-        text-align: center;
         display: block;
         background: black;
         color: whitesmoke;
+        text-align: center;
+        border: transparent;
+        padding: 3px;
     }
 
 
@@ -492,7 +517,15 @@ h3 {
         font-display: 20px;
         text-decoration: solid;
         background-color: white;
-        box-shadow: black 0 0 30 0;
+        margin-top: 3rem;
+    }
+
+    #contact-form {
+        top: 50%;
+    }
+
+    #contact-form textarea {
+        width: 22rem;
     }
 
     .box-contact {
