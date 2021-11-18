@@ -480,6 +480,11 @@ textarea {
         padding: 3px;
     }
 
+
+    .navbar i {
+        display: none;
+    }
+
     #form-div {
         text-align: center;
         vertical-align: middle;
@@ -492,9 +497,7 @@ textarea {
         height: 150px;
     }
 
-    .navbar i {
-        display: none;
-    }
+
 
     #review-page {
         align-items: center;
@@ -582,48 +585,6 @@ textarea {
         font-size: 20px;
         padding-left: 0;
     }
-
-    .navbar i {
-        display: none;
-    }
-
-    #form-div {
-        text-align: center;
-        vertical-align: left;
-        padding-left: 0;
-        padding-bottom: 20px;
-    }
-
-    #form-title {
-        font-size: 25px;
-    }
-
-    #container {
-        width: 15rem;
-        padding-left: 15px;
-    }
-
-    #form-div textarea {
-        border-radius: 10px;
-        width: 280px;
-        height: 100px;
-        border: none;
-    }
-
-    #review-form form {
-        width: 15rem;
-    }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* ipads/tablets */
