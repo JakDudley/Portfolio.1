@@ -413,11 +413,11 @@ textarea {
 
 #google-map {
     text-align: center;
-
 }
 
 /* media querys */
-@media screen and (max-width: 620px) {
+/* Iphones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
     body {
         max-width: 100%;
@@ -432,7 +432,6 @@ textarea {
     .footer.main {
         background: none;
     }
-
 
     .main-header {
         font-size: 50px;
@@ -449,13 +448,10 @@ textarea {
         display: none;
     }
 
-
     #timetable {
         top: 50%;
         border-style: none;
     }
-
-
 
     h2 {
         font-size: 15px;
@@ -500,7 +496,6 @@ textarea {
         display: none;
     }
 
-
     #review-page {
         align-items: center;
         padding-left: 10rem;
@@ -527,7 +522,6 @@ textarea {
     #contact-form input .textarea {
         width: 50%;
     }
-
 
     #parent {
         height: 15px;
