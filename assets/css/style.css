@@ -571,6 +571,9 @@ textarea {
 /* ipads/tablets */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
+
+
+
     .navbar {
         text-align: center;
     }
@@ -589,6 +592,10 @@ textarea {
         display: none;
     }
 
+    .footer-main {
+        text-align: center;
+    }
+
     .index-img {
         max-width: 100%;
         height: auto;
@@ -601,4 +608,44 @@ textarea {
     .index-img {
         animation: none;
     }
+
+    #review-form .textarea {
+        width: 100%;
+    }
+
+    #review-page h4 {
+        padding-left: 20%;
+        width: fit-content;
+        padding-bottom: 5px;
+    }
+
+    #parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 500px;
+    }
+
+    .box-contact {
+        width: 50%;
+        height: fit-content;
+        font-size: 20px
+    }
+
+
+    #form-div {
+        text-align: center;
+        width: 100%;
+    }
+
+    #timetable {
+        border: none;
+    }
+
+    #front,
+    #left {
+        display: none;
+    }
+
+
 }
