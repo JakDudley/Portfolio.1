@@ -568,11 +568,66 @@ textarea {
     }
 }
 
+/* media querys */
+/* Iphones */
+@media only screen and (min-device-width:320px) {
+
+    .navbar a {
+        display: block;
+        background: black;
+        color: whitesmoke;
+        text-align: center;
+        border: transparent;
+        padding: 2px;
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .navbar i {
+        display: none;
+    }
+
+    #form-div {
+        text-align: center;
+        vertical-align: left;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #form-title {
+        font-size: 25px;
+    }
+
+    #container {
+        width: 15rem;
+        padding-left: 15px;
+    }
+
+    #form-div textarea {
+        border-radius: 10px;
+        width: 280px;
+        height: 100px;
+        border: none;
+    }
+
+    #review-form form {
+        width: 15rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
 /* ipads/tablets */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
-
-
 
     .navbar {
         text-align: center;
