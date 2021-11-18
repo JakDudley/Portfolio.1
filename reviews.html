@@ -38,14 +38,12 @@
         <form id="form-review">
             <h1 id="form-review-title">Tell us what you think</h1>
             <h2 id="info-review">Your info</h2>
-            <label for="name"> <strong>Your Name</strong> <span><i class="fas fa-user-alt"></i></span> </label>
-            <input type="text" id="name" name="firstname" required>
-            <br>
-
-            <label for="email"><strong>Email</strong><i class="far fa-envelope"></i></label>
-            <input type="email" id="email" name=" email" required>
-            <br>
-
+            <label for="fname"> <strong> Name</strong> <i class="fas fa-signature"></i></label>
+            <input type="text" id="fname" name="firstname" required required style="font-size: 18pt; height: 40px; width: 320px" />
+            <hr>
+            <label for="email"><strong>Email</strong> <i class="far fa-envelope"></i></label>
+            <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px" />
+            <hr>
             <label for="heart">Our Service To You <i class="fas fa-star"></i></label>
             <select id="heart" name="heart" required>
                 <option value="1">1</option>
@@ -53,12 +51,11 @@
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
-                <option value="6">6</option>
             </select>
             <label for="date">Date Of Visit <i class="far fa-calendar-alt"></i></label>
             <input type="date" id="datetime" name="datetime" required>
             <br> <br> <br>
-            <textarea id="texta" rows="10" cols="50" placeholder="How did we do?"></textarea> <br>
+            <textarea id="texta" rows="10" cols="70" placeholder="How did we do?"></textarea> <br>
             <label id="submit-review" for="submit">Send Us Your Review</label>
             <input type="submit">
         </form>
