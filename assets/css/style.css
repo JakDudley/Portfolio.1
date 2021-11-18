@@ -566,10 +566,39 @@ textarea {
     .spacer {
         margin-top: 300px;
     }
+}
 
+/* ipads/tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
+    .navbar {
+        text-align: center;
+    }
 
+    .navbar a {
+        display: inline-block;
+        background: black;
+        color: whitesmoke;
+        text-align: center;
+        border: transparent;
+        padding: 3px;
 
+    }
 
+    .navbar i {
+        display: none;
+    }
 
+    .index-img {
+        max-width: 100%;
+        height: auto;
+        display: list-item;
+        align-items: center;
+        justify-content: center;
+        padding-left: 60px;
+    }
+
+    .index-img {
+        animation: none;
+    }
 }
