@@ -65,22 +65,24 @@ html {
     text-decoration: none;
     font-size: 125px;
     font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
     width: auto;
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-decoration: none;
 }
 
 /* hero -image animation sytling */
 .hero-image {
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/becki\ helped.jpeg#");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
 
 
     animation-name: hero-zoom;
@@ -105,6 +107,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E2D6BD;
+    text-decoration: none;
 }
 
 /* Home page text styling */
@@ -261,6 +264,9 @@ div ul {
 h3 {
     text-align: center;
     font-style: unset;
+    text-align: center;
+    border-bottom: whitesmoke solid 5px;
+    border-width: medium;
 }
 
 .menu-titles {
@@ -290,8 +296,7 @@ textarea {
 
 #mains {
     text-align: center;
-    border-bottom: medium;
-    border-bottom-color: #e2d6bd;
+    border-bottom: whitesmoke solid 5px;
     border-width: medium;
 }
 
@@ -315,6 +320,10 @@ textarea {
 
 .checked {
     color: whitesmoke;
+}
+
+.spacer {
+    display: none;
 }
 
 #review-page h4 {
@@ -446,9 +455,6 @@ textarea {
         border-style: none;
     }
 
-    h1 {
-        font-size: 20%;
-    }
 
 
     h2 {
@@ -518,7 +524,7 @@ textarea {
         inline-size: 20px;
     }
 
-    #contact-form input {
+    #contact-form input .textarea {
         width: 50%;
     }
 
@@ -546,6 +552,10 @@ textarea {
         width: 22rem;
     }
 
+    label {
+        display: block;
+    }
+
     .box-contact {
         display: none;
     }
@@ -554,6 +564,16 @@ textarea {
         position: relative;
         left: 20px;
     }
+
+    .textarea {
+        width: 22rem;
+    }
+
+    .spacer {
+        margin-top: 300px;
+    }
+
+
 
 
 
