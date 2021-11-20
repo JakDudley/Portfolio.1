@@ -61,8 +61,7 @@ h2 {
 
 /* Hover and active features for the navbar */
 .navbar a:hover {
-    box-shadow: 10px #e2d6bd;
-    text-decoration-line: underline;
+    box-shadow: 2px 2px 2px 2px #e2d6bd;
     text-decoration-color: #e2d6bd;
 }
 
@@ -517,7 +516,6 @@ textarea {
     #review-page {
         align-items: center;
         padding-left: 10rem;
-        size: 30px;
     }
 
     .email {
