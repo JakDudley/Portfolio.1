@@ -37,6 +37,7 @@ html {
     padding: 10px;
     color: black;
     font-size: 22px;
+    display: flex;
 }
 
 .navbar a {
@@ -434,7 +435,8 @@ textarea {
     }
 
     .main-header {
-        font-size: 50px;
+        font-size: 2rem;
+
     }
 
     .hero-image {
@@ -573,7 +575,8 @@ textarea {
 
 /* media querys */
 /* Iphones */
-@media only screen and (min-device-width:320px) {
+
+@media only screen and (max-device-width:320px) {
 
     .navbar a {
         display: block;
@@ -584,6 +587,10 @@ textarea {
         padding: 2px;
         font-size: 20px;
         padding-left: 0;
+    }
+
+    .main-header {
+        font-size: 2rem;
     }
 }
 
