@@ -7,7 +7,7 @@ a:hover {
 
 /* Mobile Forms */
 .phone-display {
-    visibility: hidden;
+    display: none;
 }
 
 /* Targets the entire body of the site. */
@@ -61,7 +61,7 @@ h2 {
 
 /* Hover and active features for the navbar */
 .navbar a:hover {
-    box-shadow: #e2d6bd;
+    box-shadow: 10px #e2d6bd;
     text-decoration-line: underline;
     text-decoration-color: #e2d6bd;
 }
@@ -432,7 +432,8 @@ textarea {
 
 /* media querys */
 /* Iphones */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     body {
         max-width: 100%;
@@ -549,7 +550,6 @@ textarea {
     #mobile-view {
         text-align: center;
         font-size: 100%;
-        font-display: 20px;
         text-decoration: solid;
         background-color: white;
         margin-top: 3rem;
@@ -588,7 +588,7 @@ textarea {
 /* media querys */
 /* Iphones */
 
-@media only screen and (max-device-width:320px) {
+@media only screen and (max-width:320px) {
     .navbar a {
         display: block;
         background: black;
@@ -610,7 +610,6 @@ textarea {
         margin-right: auto;
         background-color: rgb(255, 255, 255, 0.1);
     }
-
 
     #contact-form {
         display: none;
@@ -645,7 +644,6 @@ textarea {
         height: 8rem;
     }
 
-
     .phone-display h2 {
         font-size: 1.5rem;
     }
@@ -654,7 +652,6 @@ textarea {
         align-items: center;
         padding: 2px 2px;
         margin-left: 30px;
-
     }
 
     #container-form {
@@ -668,7 +665,7 @@ textarea {
 }
 
 /* ipads/tablets */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .navbar {
         text-align: center;
