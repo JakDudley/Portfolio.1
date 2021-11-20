@@ -592,6 +592,26 @@ textarea {
     .main-header {
         font-size: 2rem;
     }
+
+    #welcome-text {
+        margin-top: 2rem;
+    }
+
+    #form-review {
+        top: 15px;
+        text-align: center;
+        float: left;
+
+    }
+
+    #form-review input[type=text] {
+        width: 5px;
+    }
+
+
+
+
+
 }
 
 /* ipads/tablets */
