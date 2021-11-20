@@ -5,6 +5,10 @@ a:hover {
     cursor: pointer;
 }
 
+.phone-display {
+    display: none;
+}
+
 /* Targets the entire body of the site. */
 body {
     background-color: #e2d6bd;
@@ -24,6 +28,10 @@ body,
 html {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+i {
+    margin-left: 10px;
 }
 
 /* Navbar styling rules */
@@ -446,6 +454,7 @@ textarea {
         top: 2rem;
     }
 
+
     .index-img {
         display: none;
     }
@@ -577,7 +586,6 @@ textarea {
 /* Iphones */
 
 @media only screen and (max-device-width:320px) {
-
     .navbar a {
         display: block;
         background: black;
@@ -600,26 +608,56 @@ textarea {
         background-color: rgb(255, 255, 255, 0.1);
     }
 
+
+    #contact-form {
+        display: none;
+    }
+
     #review-form {
         display: none;
     }
 
-    .phone-display #name {
-        margin: 8px 0;
-        padding: 12px 40px;
+    .phone-display {
+        display: block;
+        text-align: center;
+
     }
 
     .phone-display #email {
-        margin: 8px 0;
-        padding: 12px 40px;
+        padding: 12px 1px;
+        width: 19rem;
     }
+
+    .phone-display #number {
+        width: 19rem;
+        padding: 12px 1px;
+    }
+
+    .phone-display #textarea {
+        width: 16rem;
+        height: 8rem;
+    }
+
 
     .phone-display h2 {
         font-size: 1.5rem;
     }
 
+    #review-page {
+        align-items: center;
+        padding: 2px 2px;
+        margin-left: 30px;
 
+    }
 
+    #container-form {
+        top: 20px;
+    }
+
+    #google-map iframe {
+        left: 0;
+
+    }
 }
 
 /* ipads/tablets */
