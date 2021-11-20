@@ -617,6 +617,10 @@ textarea {
         display: none;
     }
 
+    #container {
+        display: none;
+    }
+
     .phone-display {
         display: block;
         text-align: center;

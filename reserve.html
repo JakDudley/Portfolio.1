@@ -34,6 +34,37 @@
         <a class="active" href="reserve.html"><i class="fas fa-edit"></i>Reserve</a>
     </div>
 
+
+
+
+    <div class="phone.display">
+        <form class="phone-display">
+            <h1>Reserve Your Table Now</h1>
+            <label for="name"><strong>Booking Name </strong><i class="fas fa-file-signature"></i></label>
+            <input type="text" id="name" name="name" required>
+            <label for="email"><strong>Booking Email Address</strong> <i class="far fa-envelope"></i></label>
+            <input type="email" id="email" name="email" required>
+            <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
+            <input type="number" id="number" name="number" required>
+            <label for="guests">Party Size <i class="fas fa-user"></i></label>
+            <select id="guests" name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6+">6+</option>
+            </select>
+            <label for="date">When? <i class="far fa-calendar-alt"></i></label>
+            <input type="date" id="datetime" name="datetime" required>
+            <hr>
+            <textarea id="textarea" placeholder="Any special requests?"></textarea>
+            <label id="submit-review" for="submit">Send Us Your Review</label>
+            <input type="submit"> <input type="reset">
+
+        </form>
+    </div>
+
     <div id="container">
         <img id="front" src="assets/images/left.jpg" alt="happy family" />
 
