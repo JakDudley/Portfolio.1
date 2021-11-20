@@ -600,6 +600,26 @@ textarea {
         background-color: rgb(255, 255, 255, 0.1);
     }
 
+    #review-form {
+        display: none;
+    }
+
+    .phone-display #name {
+        margin: 8px 0;
+        padding: 12px 40px;
+    }
+
+    .phone-display #email {
+        margin: 8px 0;
+        padding: 12px 40px;
+    }
+
+    .phone-display h2 {
+        font-size: 1.5rem;
+    }
+
+
+
 }
 
 /* ipads/tablets */
