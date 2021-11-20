@@ -590,27 +590,15 @@ textarea {
     }
 
     .main-header {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
-    #welcome-text {
-        margin-top: 2rem;
+    .footer-main {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255, 0.1);
     }
-
-    #form-review {
-        top: 15px;
-        text-align: center;
-        float: left;
-
-    }
-
-    #form-review input[type=text] {
-        width: 5px;
-    }
-
-
-
-
 
 }
 
@@ -622,15 +610,17 @@ textarea {
     }
 
     .navbar a {
+        display: inline-block;
         background: black;
         color: whitesmoke;
         text-align: center;
         border: transparent;
         padding: 3px;
+
     }
 
     .navbar i {
-        font-size: 10px;
+        display: none;
     }
 
     .footer-main {
