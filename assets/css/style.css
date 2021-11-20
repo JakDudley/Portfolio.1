@@ -5,8 +5,9 @@ a:hover {
     cursor: pointer;
 }
 
+/* Mobile Forms */
 .phone-display {
-    display: none;
+    visibility: hidden;
 }
 
 /* Targets the entire body of the site. */
@@ -32,6 +33,10 @@ html {
 
 i {
     margin-left: 10px;
+}
+
+h2 {
+    text-decoration: none;
 }
 
 /* Navbar styling rules */
@@ -62,8 +67,8 @@ i {
 }
 
 .active {
-    color: #e2d6bd;
-    background-color: black;
+    background-color: #e2d6bd;
+    color: black;
 }
 
 /* Header and hero-image styling rules */
@@ -269,24 +274,24 @@ div ul {
 
 /* Menu PageStyling */
 
-#container-menu h1,
-h3 {
+#container-menu h1 {
     text-align: center;
     font-style: unset;
     text-align: center;
-    border-bottom: whitesmoke solid 5px;
+    border-bottom: whitesmoke solid 50px;
     border-width: medium;
 }
 
 .menu-titles {
-    font-size: 50px;
+    font-size: 40px;
 }
 
-h3 {
+.menu-titles {
     text-decoration: underline;
     border-bottom: medium;
     border-bottom-color: #e2d6bd;
     border-width: medium;
+    text-align: center;
 }
 
 textarea {
@@ -325,6 +330,7 @@ textarea {
 #review-form {
     float: left;
     padding-left: 20%;
+    top: -50px;
 }
 
 .checked {

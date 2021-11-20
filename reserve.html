@@ -9,7 +9,7 @@
     <meta name="Castleia" content="Castleia Main Website" />
     <link rel="apple-touch-icon" href="/assets/images/front image.jpg">
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/fdb0145442.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fdb0145442.js" defer crossorigin="anonymous"></script>
     <title>Castleia</title>
 </head>
 
@@ -27,11 +27,11 @@
 
 
     <div class="navbar" aria-label="navigation across the website">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="menu.html"><i class="fab fa-elementor"></i> Menu</a>
-        <a href="reviews.html"><i class="fas fa-star"></i> Reviews</a>
-        <a href="contact.html"><i class="fas fa-at"></i><i class="fas fa-phone"></i> Contact Us</a>
-        <a class="active" href="reserve.html"><i class="fas fa-edit"></i>Reserve</a>
+        <a href="index.html" aria-label="home"> <i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="menu.html" aria-label="menu"><i class="fab fa-elementor"></i> Menu</a>
+        <a href="reviews.html" aria-label="reviews"><i class="fas fa-star"></i> Reviews</a>
+        <a href="contact.html" aria-label="contact"><i class="fas fa-at"></i><i class="fas fa-phone"></i> Contact Us</a>
+        <a class="active" href="reserve.html" aria-label="reserve"><i class="fas fa-edit"></i>Reserve</a>
     </div>
 
 
@@ -46,8 +46,8 @@
             <input type="email" id="email" name="email" required>
             <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
             <input type="number" id="number" name="number" required>
-            <label for="guests">Party Size <i class="fas fa-user"></i></label>
-            <select id="guests" name="guests" required>
+            <label for="party-size">Party Size <i class="fas fa-user"></i></label>
+            <select id="party-size" name="party-size" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
