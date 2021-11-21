@@ -39,10 +39,10 @@ Update - 16/11/2021 I have made the nav bar have bigger font and changed the tex
 ![old nav bar screenshot](assets/docs/images/old-navbar.jpg)
 Throughout testing and hearing feedback I learned that my nav bar color scheme wasnt very user friendly and didnt contrast so well, I needed a new navbar so below I will display it. 
 
-![new navbar screenshot](assests/docs/images/new-navbar-ss.jpg)
+![navbar screenshot](assests/docs/images/new-navbar-ss.jpg)
 After twiddling and adjust my navbar i found a contrast that worked for all devices to make the navbar keep the profesinal feel and look. When users are using a desktop with the hover function it looks like such: 
 
-![new nav bar with hover](assets/docs/images/new-navbar-sc/jpg)
+![navbar with hover](assets/docs/images/new-navbar-hover.jpg)
  
 
   **Hero Image** 
@@ -66,13 +66,13 @@ I placed the footer at the bottom of my site mirrored with the navbar to keep co
 
 ## Icons and Font use 
 Across the site i have used two fonts:
- -  Source Code Pro  [googlefonts](https://fonts.google.com/)
- -  Dosis [googlefonts](https://fonts.google.com/)
+ -  Source Code Pro  [Google fonts](https://fonts.google.com/)
+ -  Dosis [Google fonts](https://fonts.google.com/)
 I used these two fonts as they compliment each other quite well and keep to my style of simple, professinal  and elegant. 
 All of the fonts I used were sourced from Google Fonts.
 
 Across the site i used many icons to make the site work for all auidinces aswell as making navigation easier. 
-All icons I used were from Font Awesome. [fontawesome](https://fontawesome.com/)
+All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 
 # Individual Page Content
 
