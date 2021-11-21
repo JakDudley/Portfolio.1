@@ -1,7 +1,7 @@
 # Castlia 
 Castlia is a restaurant that I have plucked out of thin air, to make this restaurant a reality I have created a user-friendly website. As Castlia is a professional place to visit I wanted to create a sleek, smart and professional layout to match the quality.  
 
-![screenshot of responsive website]{assets/docs/images/responsive.png}
+![screenshot of responsive website](assets/docs/images/responsive.png)
 
 
 ## Project Aims 
@@ -39,7 +39,7 @@ Update - 16/11/2021 I have made the nav bar have bigger font and changed the tex
 ![old nav bar screenshot](assets/docs/images/old-navbar.jpg)
 Throughout testing and hearing feedback I learned that my nav bar color scheme wasnt very user friendly and didnt contrast so well, I needed a new navbar so below I will display it. 
 
-![navbar screenshot](assests/docs/images/new-navbar-ss.jpg)
+![navbar screenshot](assets/docs/iamges/new-navbar-ss.png)
 After twiddling and adjust my navbar i found a contrast that worked for all devices to make the navbar keep the profesinal feel and look. When users are using a desktop with the hover function it looks like such: 
 
 ![navbar with hover](assets/docs/images/new-navbar-hover.jpg)
@@ -76,20 +76,20 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 
 # Individual Page Content
 
-**Home Page content** 
+## Home Page content
 - As this is the first page the user loads into i needed to make it look classy and appealing. 
 - I typed up phrases to make the customer feel good, i also used capitalization on the word "you" to grab the users attention and involve them within the site.
 - I've includede three seperate images to catch the users attention by making them bright and related to the content written above, i used style to have them all line up next to rach other with the same zoom effect that i used on the hero image.
 ![Screenshot of home page](/assets/docs/images/home-page.png) 
 
 
-**Menu Page**
+## Menu Page
 - The layout of this page was crucial, although it isnt packed with images, videos and links, the purpose of the site entirety is to get the customers falling in love with the food. To make them purley fall in love with food, i've centered the entire menu and made it easier to read with different header elements. 
 - This page also uses icons to display that different dierty needs are met, making the site more applicable for a wider range of user.
 ![Screenshot of menu page](/assets/docs/images/menu-page.png)
 
 
-**Review page**
+## Review page
 -On this page I made the content read left to right so the user is drawn to filling in the review form. 
 -I used placeholders for each form input type to make the users experince easier. 
 -Each field is reuqested to put a stop to false infomation being inputed. 
