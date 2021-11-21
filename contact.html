@@ -103,17 +103,21 @@
 
 
     <div id="contact-form">
-        <form>
-            <label for="fname"> <strong> Name</strong> <i class="fas fa-file-signature"></i></label>
-            <input type="text" id="name" name="firstname" required required style="font-size: 18pt; height: 40px; width: 320px; text-align: center;" />
-            <label for="email"><strong>Email</strong> <i class="far fa-envelope"></i></label>
-            <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px; text-align: center;" />
-            <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
-            <input type="number" id="number-contact" name="number" required style="font-size: 18pt; height: 40px; width: 320px; text-align: center;" />
+        <form id="form-review">
+            <h1 id="form-contact-title">Get in touch</h1>
+            <h2 id="details-div">Your details</h2>
+            <label for="name"><strong>Full Name</strong><i class="fas fa-file-signature"></i></label>
+            <input type="text" id="name" name="name" required required style="font-size: 18pt; height: 40px; width: 320px" />
             <hr>
-            <textarea name="comment" id="comment.area" style="margin: 0px; width: 1291px; height: 94px; font-size: 25px;" placeholder="Enter your comments here"></textarea>
-            <br>
-            <input type="submit" name="submit" id="submit" value="Submit">
+            <label for="email"><strong>Email</strong> <i class="far fa-envelope"></i></label>
+            <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px" />
+            <hr>
+            <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
+            <input type="number" id="number" name="number" required style="font-size: 18pt; height: 40px; width: 320px" />
+            <hr>
+            <textarea class="textarea" id="texta" rows="10" cols="70" placeholder="How did we do?"></textarea> <br>
+            <label id="submit-review" for="submit">Send Us Your Review</label>
+            <input type="submit">
         </form>
     </div>
 

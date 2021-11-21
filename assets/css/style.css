@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding-bottom: 50px;
     min-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Ensures no length scroll is available */
@@ -269,40 +270,31 @@ label {
     font-size: 20px;
 }
 
-#call-us {
-    text-decoration: none;
-}
 
 #number h3 {
     font-size: 20px;
     text-decoration: none;
 }
 
-#lines-open {
-    font-size: 2px;
-}
-
-#email-po {
-    float: left;
-    width: 50%;
-}
 
 #parent {
-    margin: 1rem;
+    margin: 4rem;
     padding: 2rem 2rem;
     text-align: center;
 }
 
-#email-input,
-#name-input,
-#comment-area {
-    padding: 3px;
-    border-radius: 10px;
-    width: 40rem;
-    border: none;
+#contact-form {
+    text-align: center;
+    margin-top: -4rem;
 }
 
-#contact-form {
+#form-review input {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#form-contact-title {
     text-align: center;
 }
 
@@ -444,6 +436,7 @@ form {
     body {
         max-width: 100%;
         overflow-x: hidden;
+        width: 100%;
     }
 
     footer {
@@ -466,7 +459,6 @@ form {
         width: 100%;
         top: 2rem;
     }
-
 
     .index-img {
         display: none;
@@ -539,15 +531,17 @@ form {
     }
 
     #contact-form {
-        display: inline-block;
         inline-size: 20px;
+        float: left;
+        padding-left: 0;
+
     }
 
     #contact-form input .textarea {
         width: 50%;
     }
 
-    #parent {
+    #contact-form {
         height: 15px;
         width: 100%;
         font-size: 25px;
@@ -559,6 +553,8 @@ form {
         text-decoration: solid;
         background-color: white;
         margin-top: 3rem;
+        display: block;
+
     }
 
     #contact-form {
@@ -577,10 +573,13 @@ form {
         display: none;
     }
 
+
     #google-map iframe {
         position: relative;
-        left: 20px;
+        left: 0;
+        bottom: -50rem;
     }
+
 
     .textarea {
         width: 22rem;
@@ -588,6 +587,10 @@ form {
 
     .spacer {
         margin-top: 300px;
+    }
+
+    #contact-form #comment.area {
+        width: 40rem;
     }
 }
 
@@ -633,7 +636,6 @@ form {
     .phone-display {
         display: block;
         text-align: center;
-
     }
 
     .phone-display #email {
@@ -666,8 +668,9 @@ form {
     }
 
     #google-map iframe {
+        position: relative;
         left: 0;
-
+        top: -10rem;
     }
 }
 
@@ -679,7 +682,7 @@ form {
     }
 
     .navbar a {
-        display: flex;
+
         background-color: #566573;
         color: whitesmoke;
         text-align: center;
@@ -688,7 +691,11 @@ form {
         padding: 8px;
         font-size: 20px;
         padding-left: 0;
+    }
 
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
     }
 
     .navbar i {
