@@ -1,11 +1,10 @@
 # Castlia 
 Castlia is a restaurant that I have plucked out of thin air, to make this restaurant a reality I have created a user-friendly website. As Castlia is a professional place to visit I wanted to create a sleek, smart and professional layout to match the quality.  
 
-I have created an interactive navigation bar placed above the hero image for easy navigation around the site.
+![screenshot of responsive website]{assets/docs/images/responsive.png}
 
-[website across multiple media] ()
 
-## Starting My Project 
+## Project Aims 
 Before even thinking about what HTML and CSS I was going to be using I needed to think of a few items:
 1. Business type
 2. Target Audience
@@ -30,44 +29,66 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 
 ## Features that are used across the site
 To keep the professionalism of the site I kept certain features the same across each page this also makes navigating around easier for the user. 
+
+---
+
  **Navbar**
 The Navbar appears on all pages, it has interactive links to all pages, home, menu, contact us and review. To make the user understand which page they are currently on I used a class of "active" to change the background color of the active page. To add to the user experience I implemented a :hover function, so when the user hovers over each page the background color is changed. For the media query of (Max-width: 620px;) I removed the :hover function so the hero image text was overlapped with the background color.
- 
-  ![Screen shot of nav bar](/assets/images/Nav.bar.hover.jpg) ![Screen shot of navbar css](/assets/images/Nav-CSS.jpg)
-  <!-- Add testing of old screen shots to new ones with new edits for nav bar and footer -->
+Update - 16/11/2021 I have made the nav bar have bigger font and changed the text color to make the contrast better when the user is scrolling.
 
+![old nav bar screenshot](assets/docs/images/old-navbar.jpg)
+Throughout testing and hearing feedback I learned that my nav bar color scheme wasnt very user friendly and didnt contrast so well, I needed a new navbar so below I will display it. 
+
+![new navbar screenshot](assests/docs/images/new-navbar-ss.jpg)
+After twiddling and adjust my navbar i found a contrast that worked for all devices to make the navbar keep the profesinal feel and look. When users are using a desktop with the hover function it looks like such: 
+
+![new nav bar with hover](assets/docs/images/new-navbar-sc/jpg)
+ 
 
   **Hero Image** 
 The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements.
   
   ![hero image display](/assets/docs/images/hero-image-sc.jpg) 
 
-**Navbar**
-The navbar is placed within the footer elements to keep a consistent flow across all pages, I wanted to keep the nav bar clean and simple so it didnt distract the user from the actual content of the site, with it being a restaurant site i felt like the navbar wasnt all that important but still making it fixed and over each page. By just placing icons for the relevant soical media pages, twitter, instagram, pinterest and facebook i believe i keep the look of the site simple and also smart. 
-Update - 16/11/2021 I have made the nav bar have bigger font and changed the text color to make the contrast better when the user is scrolling.
+**Footer**
+I placed the footer at the bottom of my site mirrored with the navbar to keep consistancy across all pages, I used only icons for the footer, Facebook, Twitter, Instagram and Pinterest, again all icons were taken from Font awesome. I made a hover effect for these icons with text and box shadows 
+
+`code`
+ .footer-main :hover {
+    font-size: 40px;
+    color: #e2d6bd;
+    box-shadow: 0 0 5px #e2d6bd;
+    text-shadow: 0 0 5px black;
+} 
+
+![footer hover](assets/docs/images/footer-hover.png)
+
 
 ## Icons and Font use 
 Across the site i have used two fonts:
-                              -  Source Code Pro 
-                              -  Dosis
+ -  Source Code Pro  [googlefonts](https://fonts.google.com/)
+ -  Dosis [googlefonts](https://fonts.google.com/)
 I used these two fonts as they compliment each other quite well and keep to my style of simple, professinal  and elegant. 
-All of the fonts I used were sourced from Google Fonts as stated in the credits at the bottom of the page. 
+All of the fonts I used were sourced from Google Fonts.
 
 Across the site i used many icons to make the site work for all auidinces aswell as making navigation easier. 
-All icons I used were from Font Awesome, they are refrenced in the credits.
+All icons I used were from Font Awesome. [fontawesome](https://fontawesome.com/)
 
-# Each page has its own content and design 
-## Home Page 
+# Individual Page Content
 
 **Home Page content** 
 - As this is the first page the user loads into i needed to make it look classy and appealing. 
 - I typed up phrases to make the customer feel good, i also used capitalization on the word "you" to grab the users attention and involve them within the site.
 - I've includede three seperate images to catch the users attention by making them bright and related to the content written above, i used style to have them all line up next to rach other with the same zoom effect that i used on the hero image.
-![Screenshot of home page](/assets/docs/images/homepage-ss.png) 
+![Screenshot of home page](/assets/docs/images/home-page.png) 
+
+
 **Menu Page**
 - The layout of this page was crucial, although it isnt packed with images, videos and links, the purpose of the site entirety is to get the customers falling in love with the food. To make them purley fall in love with food, i've centered the entire menu and made it easier to read with different header elements. 
 - This page also uses icons to display that different dierty needs are met, making the site more applicable for a wider range of user.
-![Screenshot of menu page](/assets/docs/images/homepage-ss.png)
+![Screenshot of menu page](/assets/docs/images/menu-page.png)
+
+
 **Review page**
 -On this page I made the content read left to right so the user is drawn to filling in the review form. 
 -I used placeholders for each form input type to make the users experince easier. 

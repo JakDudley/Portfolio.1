@@ -23,7 +23,6 @@ body {
     height: 100%;
     margin: 0;
     padding-bottom: 50px;
-    overflow-x: hidden;
     min-width: 100%;
 }
 
@@ -31,7 +30,6 @@ body {
 body,
 html {
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 /* Creates space between navbar text and icons */
@@ -59,7 +57,7 @@ i {
 }
 
 .navbar a {
-    color: #e2d6bd;
+    color: white;
     text-decoration: none;
     background-color: #566573
 }
@@ -385,6 +383,7 @@ div ul {
     height: 25%;
     margin: auto;
     margin-top: 5%;
+    max-width: 100%;
 }
 
 #reserve-div {
@@ -498,10 +497,11 @@ form {
     .navbar a {
         float: left;
         display: block;
-        background: black;
+        background-color: #566573;
         color: whitesmoke;
         text-align: center;
         border: transparent;
+        text-decoration: none;
         padding: 3px;
     }
 
@@ -597,10 +597,11 @@ form {
 @media only screen and (max-width:320px) {
     .navbar a {
         display: block;
-        background: black;
+        background-color: #566573;
         color: whitesmoke;
         text-align: center;
         border: transparent;
+        text-decoration: none;
         padding: 2px;
         font-size: 20px;
         padding-left: 0;
@@ -678,12 +679,15 @@ form {
     }
 
     .navbar a {
-        display: inline-block;
-        background: black;
+        display: flex;
+        background-color: #566573;
         color: whitesmoke;
         text-align: center;
         border: transparent;
-        padding: 3px;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 20px;
+        padding-left: 0;
 
     }
 
