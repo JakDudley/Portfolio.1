@@ -25,15 +25,18 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 - I wanted the customer to not be confused and redirect to another restaurant site
 - To offer the user an easy to navigate and accessible experience across what ever device they desire to use 
 ### Color Scheme 
- - When deciding the color scheme I wanted to make the site look smart and fresh as well as professional, to do this I stuck to two main colors one of which is #e2d6bd as the background and #F5F5F5 as the navbar color along with styles for hover: . 
+ - When deciding the color scheme I wanted to make the site look smart and fresh as well as professional, to do this I stuck to two main colors one of which is #e2d6bd as the background and #F5F5F5. The navbar color has changed over the cause of time as you can see in the below screenshots, but I've gone with rgb(255, 255, 255, 0.4) to make it easier to identify across each device. 
+### Meta Description and Title 
+- When deciding what description to give the page I used [Smart Copy](https://unbounce.com/product/smart-copy/?gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZCUAoiSbSXIyGfYcJGbYaeFRR6PMR4r1QzC_kqyJhuPF2Mxeda07iEaAqj0EALw_wcB) to generate a meaningful description. 
+- The title of the page is a simple feature but i wanted to make it mine, so for each page i used the title of the page within the title so the user can see what page they are on within the tab bar. 
+![Picture of each page title in the window tab](assets/docs/images/title-tabs.png)
 
 ## Features that are used across the site
 To keep the professionalism of the site I kept certain features the same across each page this also makes navigating around easier for the user. 
 
 
- **Navbar**
- ---
-
+  **Nav Bar** 
+---
 The Navbar appears on all pages, it has interactive links to all pages, home, menu, contact us and review. To make the user understand which page they are currently on I used a class of "active" to change the background color of the active page. To add to the user experience I implemented a :hover function, so when the user hovers over each page the background color is changed. For the media query of (Max-width: 620px;) I removed the :hover function so the hero image text was overlapped with the background color.
 Update - 16/11/2021 I have made the nav bar have bigger font and changed the text color to make the contrast better when the user is scrolling.
 
