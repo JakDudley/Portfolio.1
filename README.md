@@ -129,3 +129,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 * Indefintly I would have to understand Javascript to make this possible, I could of created a mock version of this within CSS and HTML but didnt seem it fit for my time to do so.  
 * Forms 
     - I wish to make all the forms with the value of push, of course this would have to make the Castleia a real location. 
+
+# Testing 
+After completion of my site I conducted testing within different browsers 
+
