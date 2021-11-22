@@ -117,7 +117,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 - I created this page with the idea of focus on the reserve form I did this by placing images either side and the form in the center. 
 - Also displayed on the page is the opening hours of the restaurant which is also available on the home page with a hyperlink. 
 - I used a form with multiple input types to show my understanding of each element such as 
--  <option> <name> <number> <email> <textarea> 
+-  option, name, number, email, textarea.  
 
 ![Screenshot of reserve page](assets/docs/images/reserve-page.png)
 
@@ -129,4 +129,3 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 * Indefintly I would have to understand Javascript to make this possible, I could of created a mock version of this within CSS and HTML but didnt seem it fit for my time to do so.  
 * Forms 
     - I wish to make all the forms with the value of push, of course this would have to make the Castleia a real location. 
-*
