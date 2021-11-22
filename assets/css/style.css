@@ -24,18 +24,18 @@ body {
     margin: 0;
     padding-bottom: 50px;
     min-width: 100%;
-    overflow-x: hidden;
 }
 
 /* Ensures no length scroll is available */
 body,
 html {
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Creates space between navbar text and icons */
 i {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 /* Creates gap between top line of text and hero image zoom */
@@ -51,7 +51,7 @@ i {
     top: 0;
     margin-top: 0;
     float: left;
-    padding: 10px;
+    padding: 6px;
     color: black;
     font-size: 22px;
     display: flex;
@@ -78,12 +78,8 @@ i {
 /* Header and hero-image styling rules */
 .main-header {
     color: #E2D6BD;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
     font-size: 125px;
     font-family: 'Source Code Pro', monospace;
-    text-decoration: none;
 }
 
 .hero-image {
@@ -168,11 +164,10 @@ i {
 
 #container-menu h1 {
     text-align: center;
-    font-style: unset;
-    text-align: center;
     border-bottom: whitesmoke solid 50px;
     border-width: medium;
 }
+
 
 .menu-titles {
     font-size: 40px;
@@ -189,12 +184,7 @@ i {
 
 
 
-#appetisers {
-    text-align: center;
-    border-bottom: whitesmoke solid 5px;
-    border-width: medium;
-}
-
+#appetisers,
 #mains {
     text-align: center;
     border-bottom: whitesmoke solid 5px;
@@ -209,24 +199,20 @@ i {
 
 /* Reviews Page styling */
 
-#form-review-title {
-    font-size: 30px;
-    font-style: oblique;
+#form-contact-title,
+#details-div {
+    text-align: center;
 }
 
 #review-form {
     float: left;
     padding-left: 20%;
-    top: -50px;
 }
 
-.checked {
-    color: whitesmoke;
+#form-review #texta {
+    width: 65%
 }
 
-.spacer {
-    display: none;
-}
 
 #review-page h4 {
     margin-left: auto;
@@ -236,14 +222,6 @@ i {
     padding-top: 5%;
 }
 
-#textarea {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    border: whitesmoke solid 2px;
-}
 
 /* contact us page */
 .box-contact {
@@ -254,12 +232,14 @@ i {
     margin-left: 70px;
     text-align: center;
     font-size: 50px;
+
 }
 
 .box-contact {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
+    border-radius: 5rem;
 }
 
 #mobile-view {
@@ -328,13 +308,10 @@ label {
     background: rgb(255, 255, 255, 0.1);
     text-align: left;
     bottom: 0px;
-    margin-bottom: 0px;
-    text-decoration: none;
     float: left;
-    padding: 10px;
+    padding-bottom: 15px;
     color: black;
-    font-size: 22px;
-    height: 2rem;
+    font-size: 20px;
 }
 
 .footer-main :hover {
@@ -344,15 +321,8 @@ label {
     text-shadow: 0 0 5px black;
 }
 
-div ul {
-    display: inline-block;
-    margin: 25px;
-    padding: 20px;
-    width: 100%;
-}
 
 .footer-main li {
-    font-size: 125%;
     list-style-type: none;
     display: inline-block;
 }
@@ -364,13 +334,11 @@ div ul {
 /* Reserve page styling */
 #container {
     display: flex;
-    flex-direction: row;
 }
 
 /* img styling */
 #right-img,
 #left-img {
-    display: flex;
     width: 25%;
     height: 25%;
     margin: auto;
@@ -378,14 +346,8 @@ div ul {
     max-width: 100%;
 }
 
-#reserve-div {
-    display: block;
-    text-align: center;
-}
-
 #form-title {
     text-align: center;
-    text-decoration: solid;
 }
 
 input[type="text"] {
@@ -450,7 +412,6 @@ form {
 
     .main-header {
         font-size: 2rem;
-
     }
 
     .hero-image {
@@ -554,7 +515,6 @@ form {
         background-color: white;
         margin-top: 3rem;
         display: block;
-
     }
 
     #contact-form {
@@ -572,7 +532,6 @@ form {
     .box-contact {
         display: none;
     }
-
 
     #google-map iframe {
         position: relative;
@@ -679,10 +638,11 @@ form {
 
     .navbar {
         text-align: center;
+        display: inline-block;
+        font-weight: 800;
     }
 
     .navbar a {
-
         background-color: #566573;
         color: whitesmoke;
         text-align: center;
@@ -696,10 +656,6 @@ form {
     body {
         overflow-x: hidden;
         max-width: 100%;
-    }
-
-    .navbar i {
-        display: none;
     }
 
     .footer-main {
@@ -729,6 +685,12 @@ form {
         padding-bottom: 5px;
     }
 
+    #review-form {
+        float: left;
+        padding-left: 0;
+        top: -50px;
+    }
+
     #parent {
         display: flex;
         flex-direction: row;
@@ -741,7 +703,6 @@ form {
         height: fit-content;
         font-size: 20px
     }
-
 
     #reserve-div {
         text-align: center;

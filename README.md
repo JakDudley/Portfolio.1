@@ -39,7 +39,7 @@ Update - 16/11/2021 I have made the nav bar have bigger font and changed the tex
 ![old nav bar screenshot](assets/docs/images/old-navbar.jpg)
 Throughout testing and hearing feedback I learned that my nav bar color scheme wasnt very user friendly and didnt contrast so well, I needed a new navbar so below I will display it. 
 
-![navbar screenshot](assets/docs/iamges/new-navbar-ss.png)
+![navbar screenshot](assets/docs/images/new-navbar-ss.png)
 After twiddling and adjust my navbar i found a contrast that worked for all devices to make the navbar keep the profesinal feel and look. When users are using a desktop with the hover function it looks like such: 
 
 ![navbar with hover](assets/docs/images/new-navbar-hover.jpg)

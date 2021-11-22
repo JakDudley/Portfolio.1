@@ -9,7 +9,7 @@
     <meta name="description" content="Hungry? Let Castleia take you away to a world of flavours and tastes that will leave you and your guests in a state of bliss and in the best company possible. " />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://kit.fontawesome.com/fdb0145442.js" defer crossorigin="anonymous"></script>
-    <title>Castleia</title>
+    <title>Castleia ~ Reserve</title>
 </head>
 
 <body>
@@ -72,27 +72,28 @@
                 <h1 id="form-title">Reserve Your Table Now</h1>
 
                 <label for="fname"> <strong> Name</strong> <i class="fas fa-file-signature"></i> </label>
-                <input type="text" id="fname" name="firstname" required style="font-size: 18pt; height: 40px; width: 320px" />
+                <input type="text" id="fname" name="firstname" required style="font-size: 14pt; height: 40px; width: 320px" />
                 <hr>
                 <label for="email"><strong>Email</strong> <i class="far fa-envelope"></i></label>
-                <input type="email" id="email" name="email" required style="font-size: 18pt; height: 40px; width: 320px" />
+                <input type="email" id="email" name="email" required style="font-size: 14pt; height: 40px; width: 320px" />
+                <hr>
+                <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
+                <input type="number" id="number" name="number" required style="font-size: 14pt; height: 40px; width: 320px" />
                 <hr>
                 <textarea name="comment" id="comment-area" rows="10" cols="70" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
                 <hr>
-
-
-                <label for="guests">Guests</label>
-                <select id="guests" name="guests" required>
-                    <option value="">1</option>
+                <label for="party-size">Party Size <i class="fas fa-user"></i></label>
+                <select id="party-size" name="party-size" required>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="6+">6+</option>
                 </select>
-                <label for="datetime">Date</label>
-                <input type="date" id="datetime" name="datetime" required />
-                <label>Submit</label>
-                <input type="submit" />
+                <label for="When">Reservation:</label>
+                <input type="datetime-local" id="date" name="datetime" required>
+                <input type="button" onclick="alert('We look forward to seeing you')" value="Submit"> <input type="reset">
             </form>
             <br />
             <br />
