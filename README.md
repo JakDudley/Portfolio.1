@@ -98,13 +98,22 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 
 
 ## Review Page
--On this page I made the content read left to right so the user is drawn to filling in the review form. 
--I used placeholders for each form input type to make the users experince easier. 
--Each field is reuqested to put a stop to false infomation being inputed. 
--To make the page feel more real i used a "onclick" command to show the review had been accepted. I used [W3 School](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) to help me to do this. I have shown this in the below scrensoht
+- On this page I made the content read left to right so the user is drawn to filling in the review form. 
+- I used placeholders for each form input type to make the users experince easier. 
+- Each field is reuqested to put a stop to false infomation being inputed. 
+- To make the page feel more real i used a "onclick" command to show the review had been accepted. I used [W3 School](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) to help me to do this. I have shown this in the below scrensoht
 ![Screenshot of review page](/assets/docs/images/rev-page.png)
 
 ## Contact Page
+- The contact page is one of my favourate because I got to use a variation of different code, such as "Display - Padding - Vertical Align" using many css styles allowed me to understand how they all worked, improving my knowledge. 
+- I created three smart looking, simple effective boxes with relevant infomation regarding different ways to help the user. 
+- Below my helpful boxes i used a form with the use of (name - input) (email - input) (email - input) and a (textarea) again using a onclick command with a relevant popup. I decided to have this form in a horizontal position so the user can locate the google map which i included inside an iframe. 
+- The iframe I used in this page was a link from google maps, as Castleia isnt a real location i used the destinatnion of my old work place with a simular name. 
+
+![Screenshot of contact page](/assests/docs/images/contact-us.png)
+![Screenshot of iframe on contact page](/assets/docs/images/iframe.png)
+
+
 
 
 
