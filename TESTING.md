@@ -24,7 +24,7 @@ To have the best feedback possible i asked a few friends to use the site as if t
 
 
 # Validator 
-To validate my HTML I used [W3C](https://validator.w3.org/)
+To validate my HTML I used [W3C](https://validator.w3.org/) 
 
 
 
