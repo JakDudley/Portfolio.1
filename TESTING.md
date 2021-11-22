@@ -25,6 +25,11 @@ To have the best feedback possible i asked a few friends to use the site as if t
 
 # Validator 
 To validate my HTML I used [W3C](https://validator.w3.org/) 
+![Validate HTML](assets/docs/images/html-validate.png)
+
+To validate my CSS I used [W3C](https://jigsaw.w3.org/css-validator/)
+![CSS validator](assets/docs/images/css-validate.png)
+[CSS validate sticker](https://jigsaw.w3.org/css-validator/check/referer)
 
 
 
