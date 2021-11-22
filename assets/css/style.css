@@ -218,12 +218,13 @@ i {
 }
 
 
-#review-page h4 {
+#review-page h3 {
     margin-left: auto;
     margin-right: auto;
     padding-right: 20%;
     text-align: center;
     padding-top: 5%;
+    font-size: 1rem;
 }
 
 
@@ -610,7 +611,7 @@ form {
         text-align: center;
     }
 
-    .phone-display #email {
+    .phone-display #emailbox {
         padding: 12px 1px;
         width: 19rem;
     }
@@ -692,8 +693,9 @@ form {
         width: 100%;
     }
 
-    #review-page h4 {
+    #review-page h3 {
         padding-right: 5%;
+        font-size: 1rem;
     }
 
     #review-form {
