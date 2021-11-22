@@ -693,9 +693,7 @@ form {
     }
 
     #review-page h4 {
-        padding-left: 20%;
-        width: fit-content;
-        padding-bottom: 5px;
+        padding-right: 5%;
     }
 
     #review-form {
@@ -731,5 +729,14 @@ form {
         display: none;
     }
 
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .index-img {
+        max-width: 100%;
+        max-height: 100%;
+        animation: none;
+    }
 
 }
