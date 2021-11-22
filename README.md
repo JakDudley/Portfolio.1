@@ -116,6 +116,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 ## Reserve Page 
 - I created this page with the idea of focus on the reserve form I did this by placing images either side and the form in the center. 
 - Also displayed on the page is the opening hours of the restaurant which is also available on the home page with a hyperlink. 
-- I used a form with multiple input types to show my understanding of each element such as `code` <option> <name> <number> <email> <textarea> . 
+- I used a form with multiple input types to show my understanding of each element such as 
+- `code` <option> <name> <number> <email> <textarea> 
 
-![Screenshot of reserve page](assets/docs/reserve-page.png)
+![Screenshot of reserve page](assets/docs/images/reserve-page.png)
