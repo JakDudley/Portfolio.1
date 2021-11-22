@@ -16,3 +16,13 @@ After completion of my site I conducted testing within different browsers .
   - No issues found. 
 
 Across Firefox, IE and Edge i ran into an error; When clicking on the image with the link to the reserve page i got the below; 
+- To fix this issue i asked the Slack community but i am yet to hear any fix or reason for this message. 
+![Error 404](assets/docs/images/error-display.png) 
+
+## Independent Testing 
+To have the best feedback possible i asked a few friends to use the site as if they were a customer and give me there opinions and any bugs they came across. 
+
+
+# Validator 
+
+    
