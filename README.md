@@ -1,4 +1,4 @@
-# Castlia 
+# Castleia 
 Castlia is a restaurant that I have plucked out of thin air, to make this restaurant a reality I have created a user-friendly website. As Castlia is a professional place to visit I wanted to create a sleek, smart and professional layout to match the quality.  
 
 ![screenshot of responsive website](assets/docs/images/responsive.png)
@@ -30,13 +30,15 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 ## Features that are used across the site
 To keep the professionalism of the site I kept certain features the same across each page this also makes navigating around easier for the user. 
 
----
 
  **Navbar**
+ ---
+
 The Navbar appears on all pages, it has interactive links to all pages, home, menu, contact us and review. To make the user understand which page they are currently on I used a class of "active" to change the background color of the active page. To add to the user experience I implemented a :hover function, so when the user hovers over each page the background color is changed. For the media query of (Max-width: 620px;) I removed the :hover function so the hero image text was overlapped with the background color.
 Update - 16/11/2021 I have made the nav bar have bigger font and changed the text color to make the contrast better when the user is scrolling.
 
 ![old nav bar screenshot](assets/docs/images/old-navbar.jpg)
+---
 Throughout testing and hearing feedback I learned that my nav bar color scheme wasnt very user friendly and didnt contrast so well, I needed a new navbar so below I will display it. 
 
 ![navbar screenshot](assets/docs/images/new-navbar-ss.png)
@@ -46,14 +48,17 @@ After twiddling and adjust my navbar i found a contrast that worked for all devi
  
 
   **Hero Image** 
+---
 The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements.
   
   ![hero image display](/assets/docs/images/hero-image-sc.jpg) 
 
 **Footer**
+---
 I placed the footer at the bottom of my site mirrored with the navbar to keep consistancy across all pages, I used only icons for the footer, Facebook, Twitter, Instagram and Pinterest, again all icons were taken from Font awesome. I made a hover effect for these icons with text and box shadows 
 
 `code`
+---
  .footer-main :hover {
     font-size: 40px;
     color: #e2d6bd;
@@ -89,11 +94,14 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 ![Screenshot of menu page](/assets/docs/images/menu-page.png)
 
 
-## Review page
+## Review Page
 -On this page I made the content read left to right so the user is drawn to filling in the review form. 
 -I used placeholders for each form input type to make the users experince easier. 
 -Each field is reuqested to put a stop to false infomation being inputed. 
-![Screenshot of menu page](/assets/docs/images/review-ss.png)
+-To make the page feel more real i used a "onclick" command to show the review had been accepted. I used [W3 School](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) to help me to do this. I have shown this in the below scrensoht
+![Screenshot of review page](/assets/docs/images/rev-page.png)
+
+## Contact Page
 
 
 
