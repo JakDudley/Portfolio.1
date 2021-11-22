@@ -117,6 +117,16 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 - I created this page with the idea of focus on the reserve form I did this by placing images either side and the form in the center. 
 - Also displayed on the page is the opening hours of the restaurant which is also available on the home page with a hyperlink. 
 - I used a form with multiple input types to show my understanding of each element such as 
-- `code` <option> <name> <number> <email> <textarea> 
+-  <option> <name> <number> <email> <textarea> 
 
 ![Screenshot of reserve page](assets/docs/images/reserve-page.png)
+
+# Future Developments 
+* In the future I would like to be able to add 
+  - A pre book function, when the user opts for 6+ party members the menu is displayed with an option to chose what items each party member wants + adjustments to the food item. 
+  - A team page, where the customer can see all of the staff, with images of each person and there role within the company. 
+  - A page for guests to buy gift vouchers with what ever value they want with all the details forwared to their email address. 
+* Indefintly I would have to understand Javascript to make this possible, I could of created a mock version of this within CSS and HTML but didnt seem it fit for my time to do so.  
+* Forms 
+    - I wish to make all the forms with the value of push, of course this would have to make the Castleia a real location. 
+*
