@@ -136,6 +136,10 @@ i {
     text-decoration: none;
 }
 
+.link-text {
+    text-decoration: solid;
+}
+
 .index-img {
     display: flex;
     align-items: center;
@@ -425,6 +429,10 @@ form {
         display: none;
     }
 
+    .img-link {
+        display: none;
+    }
+
     #timetable {
         top: 50%;
         border-style: none;
@@ -579,6 +587,11 @@ form {
         margin-right: auto;
         background-color: rgb(255, 255, 255, 0.1);
     }
+
+    .img-link {
+        display: none;
+    }
+
 
     #contact-form {
         display: none;

@@ -60,8 +60,7 @@ The hero image is shown at the top of each page (below the nav), by continuing t
 ---
 I placed the footer at the bottom of my site mirrored with the navbar to keep consistency across all pages, I used only icons for the footer, Facebook, Twitter, Instagram and Pinterest, again all icons were taken from Font awesome. I made a hover effect for these icons with text and box shadows 
 
-`code`
----
+`code` 
  .footer-main :hover {
     font-size: 40px;
     color: #e2d6bd;
@@ -94,6 +93,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 ## Menu Page
 - The layout of this page was crucial, although it isn't packed with images, videos and links, the purpose of the site entirety is to get the customers falling in love with the food. To make them purely fall in love with food, I've centred the entire menu and made it easier to read with different header elements. 
 - This page also uses icons to display that different dietary needs are met, making the site more applicable for a wider range of the user.
+- To help the user navigate to the opening hours section of the site I created a image with a link to the appropiate site page.
 ![Screenshot of menu page](/assets/docs/images/menu-page.png)
 
 
@@ -112,3 +112,10 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 
 ![Screenshot of contact page](/assets/docs/images/contact-us.png)
 ![Screenshot of iframe on contact page](/assets/docs/images/iframe.png)
+
+## Reserve Page 
+- I created this page with the idea of focus on the reserve form I did this by placing images either side and the form in the center. 
+- Also displayed on the page is the opening hours of the restaurant which is also available on the home page with a hyperlink. 
+- I used a form with multiple input types to show my understanding of each element such as `code` <option> <name> <number> <email> <textarea> . 
+
+![Screenshot of reserve page](assets/docs/reserve-page.png)
