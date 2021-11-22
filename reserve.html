@@ -40,13 +40,13 @@
         <form class="phone-display">
             <h1>Reserve Your Table Now</h1>
             <label for="name"><strong>Booking Name </strong><i class="fas fa-file-signature"></i></label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" aria-label="name input box" required>
             <label for="email"><strong>Booking Email Address</strong> <i class="far fa-envelope"></i></label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" aria-label="email input box" required>
             <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
-            <input type="number" id="number" name="number" required>
+            <input type="number" id="number" name="number" aria-label="number input form" required>
             <label for="party-size">Party Size <i class="fas fa-user"></i></label>
-            <select id="party-size" name="party-size" required>
+            <select id="party-size" name="party-size" aria-label="party size dropdown" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -55,11 +55,11 @@
                 <option value="6+">6+</option>
             </select>
             <label for="date">When? <i class="far fa-calendar-alt"></i></label>
-            <input type="date" id="datetime" name="datetime" required>
+            <input type="datetime" id="datetime" name="datetime" aria-label="date and time" required>
             <hr>
             <textarea id="textarea" placeholder="Any special requests?"></textarea>
             <label id="submit-review" for="submit">Send Us Your Review</label>
-            <input type="submit"> <input type="reset">
+            <input type="submit" aria-label="submit button"> <input type="reset" aria-label="reset form label">
 
         </form>
     </div>

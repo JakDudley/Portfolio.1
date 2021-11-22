@@ -18,6 +18,7 @@ After completion of my site I conducted testing within different browsers .
 Across Firefox, IE and Edge i ran into an error; When clicking on the image with the link to the reserve page i got the below; 
 - To fix this issue i asked the Slack community but i am yet to hear any fix or reason for this message. 
 ![Error 404](assets/docs/images/error-display.png) 
+- I later found a fix for this error, I needed to link the page to the deployed site instead of reserve.html.  
 
 ## Independent Testing 
 To have the best feedback possible i asked a few friends to use the site as if they were a customer and give me there opinions and any bugs they came across. 
@@ -29,7 +30,6 @@ To validate my HTML I used [W3C](https://validator.w3.org/)
 
 To validate my CSS I used [W3C](https://jigsaw.w3.org/css-validator/)
 ![CSS validator](assets/docs/images/css-validate.png)
-[CSS validate sticker](https://jigsaw.w3.org/css-validator/check/referer)
 
 
 
