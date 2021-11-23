@@ -611,12 +611,17 @@ form {
         text-align: center;
     }
 
-    .phone-display #emailbox {
+    .phone-display {
         padding: 12px 1px;
         width: 19rem;
     }
 
     .phone-display #number {
+        width: 19rem;
+        padding: 12px 1px;
+    }
+
+    .mobile-input {
         width: 19rem;
         padding: 12px 1px;
     }
