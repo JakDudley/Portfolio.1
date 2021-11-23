@@ -37,12 +37,21 @@ To guarantee the most accessibility across all pages I ran audits for each page 
 
 ## Lighthouse Reports
 The below screenshots are for lighthouse reports for desktop but when I ran them for mobile they were the same or a little higher, I've chosen to display the desktop reports and lowest to show how I repaired them to increase the report. 
+**Home Page**
 ![Home Page Lighthouse](/assets/docs/images/index.lighthouse.png)
+
+**Menu Page**
 ![Menu Page Lighthouse](/assets/docs/images/menu.lighthouse.png)
+
+**Reserve Page Before & After**
 ![Reserve Page Lighthouse](/assets/docs/images/reserve.lighthouse.png)
   - I read through the report and made changes to ARIA ids along with removing an aria label from the navbar. 
 ![Fixed Reserve Page Lighthouse](/assets/docs/images/fix.reserve.lighthouse.png)
+
+**Review Page** 
 ![Review Page Lighthouse](/assets/docs/images/reviews.lighthouse.png)
+
+**Contact Page Before & After**
 ![Contact Us Page Lighthouse](/assets/docs/images/contact.lighthouse.png)
   - After going through the report I needed to make the ID's in the form input titles unique, instead of going through each and making new values for them I created a class making it easier to target them within the CSS stylesheet.
 ![Fixed Contact Us Page Lighthouse](/assets/docs/images/new.contact.lighthouse.png)
