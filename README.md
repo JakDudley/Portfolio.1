@@ -93,7 +93,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 ## Menu Page
 - The layout of this page was crucial, although it isn't packed with images, videos and links, the purpose of the site entirety is to get the customers falling in love with the food. To make them purely fall in love with food, I've centred the entire menu and made it easier to read with different header elements. 
 - This page also uses icons to display that different dietary needs are met, making the site more applicable for a wider range of the user.
-- To help the user navigate to the opening hours section of the site I created a image with a link to the appropiate site page.
+- To help the user navigate to the opening hours section of the site I created an image with a link to the appropriate site page.
 ![Screenshot of menu page](/assets/docs/images/menu-page.png)
 
 
@@ -114,7 +114,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 ![Screenshot of iframe on contact page](/assets/docs/images/iframe.png)
 
 ## Reserve Page 
-- I created this page with the idea of focus on the reserve form I did this by placing images either side and the form in the center. 
+- I created this page with the idea of focusing on the reserve form I did this by placing images on either side and the form in the center. 
 - Also displayed on the page is the opening hours of the restaurant which is also available on the home page with a hyperlink. 
 - I used a form with multiple input types to show my understanding of each element such as 
 -  option, name, number, email, textarea.  
@@ -123,12 +123,12 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 
 # Future Developments 
 * In the future I would like to be able to add 
-  - A pre book function, when the user opts for 6+ party members the menu is displayed with an option to chose what items each party member wants + adjustments to the food item. 
-  - A team page, where the customer can see all of the staff, with images of each person and there role within the company. 
-  - A page for guests to buy gift vouchers with what ever value they want with all the details forwared to their email address. 
-* Indefintly I would have to understand Javascript to make this possible, I could of created a mock version of this within CSS and HTML but didnt seem it fit for my time to do so.  
+  - A pre-book function, when the user opts for 6+ party members the menu is displayed with an option to choose what items each party member wants + adjustments to the food item. 
+  - A team page, where the customer can see all of the staff, with images of each person and their role within the company. 
+  - A page for guests to buy gift vouchers with the desired value they want with all the details forwarded to their email address. 
+* Indefinitely I would have to understand Javascript to make this possible, I could have created a mock version of this within CSS and HTML but didnt seem fit for my time to do so.  
 * Forms 
-    - I wish to make all the forms with the value of push, of course this would have to make the Castleia a real location. 
+    - I wish to make all the forms with the value of push, of course, this would have to make the Castleia a real location. 
 
 # Testing 
 I have created a seperate [Testing.md](/TESTING.md) 
