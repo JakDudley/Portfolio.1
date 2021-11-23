@@ -42,8 +42,8 @@ The below screenshots are for lighthouse reports for desktop but when I ran them
 ![Reserve Page Lighthouse](/assets/docs/images/reserve.lighthouse.png)
   - I read through the report and made changes to ARIA ids along with removing an aria label from the navbar. 
 ![Fixed Reserve Page Lighthouse](/assets/docs/images/fix.reserve.lighthouse.png)
-![Review Page Lighthouse](/assets/docs/images/reviews.lighhouse.png)
-![Contact Us Page Lighthouse](/assets/docs/images/contact.lighhouse.png)
+![Review Page Lighthouse](/assets/docs/images/reviews.lighthouse.png)
+![Contact Us Page Lighthouse](/assets/docs/images/contact.lighthouse.png)
   - After going through the report I needed to make the ID's in the form input titles unique, instead of going through each and making new values for them I created a class making it easier to target them within the CSS stylesheet.
 ![Fixed Contact Us Page Lighthouse](/assets/docs/images/new.contact.lighthouse.png)
 
