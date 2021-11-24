@@ -97,8 +97,6 @@ i {
 .hero-image {
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
-
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -131,14 +129,11 @@ i {
     padding-top: 5px;
 }
 
+/* Home page opening text */
 #ingredients h3 {
     text-align: center;
     padding-top: 1.875rem;
     text-decoration: none;
-}
-
-.link-text {
-    text-decoration: solid;
 }
 
 .index-img {
@@ -166,19 +161,15 @@ i {
 }
 
 /* Menu PageStyling */
-
 #container-menu h1 {
     text-align: center;
     border-bottom: whitesmoke solid 50px;
     border-width: medium;
 }
 
-
+/* Titles for each section on menu */
 .menu-titles {
     font-size: 2.5rem;
-}
-
-.menu-titles {
     text-decoration: underline;
     border-bottom: medium;
     border-bottom-color: #e2d6bd;
@@ -199,7 +190,6 @@ i {
 }
 
 /* Reviews Page styling */
-
 #form-contact-title,
 #details-div {
     text-align: center;
@@ -223,26 +213,24 @@ i {
     font-size: 1rem;
 }
 
-
 /* contact us page */
+/* Three info boxes at top of page */
 .box-contact {
     background-color: white;
     color: #000000;
-    width: 20%;
-    height: 600px;
-    margin-left: 37.5rem;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 37.5rem;
     text-align: center;
     font-size: 3.125rem;
-
-}
-
-.box-contact {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
     border-radius: 5rem;
 }
 
+/* hides the form made just for mobiles */
 #mobile-view {
     display: none;
 }
@@ -251,12 +239,10 @@ label {
     font-size: 1.25rem;
 }
 
-
 #number-contact h3 {
     font-size: 20px;
     text-decoration: none;
 }
-
 
 #parent {
     margin: 1.25rem;
@@ -274,22 +260,11 @@ label {
     margin-top: 1.25rem;
 }
 
-
 #form-contact-title {
     text-align: center;
 }
 
-#submit {
-    background: #000000;
-    color: #e2d6bd;
-    border: 1px solid #eee;
-    border-radius: 1.25rem;
-    box-shadow: 5px 5px 5px;
-    text-shadow: none;
-    font-size: medium;
-    text-align: center;
-}
-
+/* Centers the google map to thee center of the page */
 #google-map {
     text-align: center;
 }
@@ -322,7 +297,6 @@ label {
     text-shadow: 0 0 5px #000000;
 }
 
-
 .footer-main li {
     list-style-type: none;
     display: inline-block;
@@ -333,6 +307,7 @@ label {
 }
 
 /* Reserve page styling */
+/* Targets all images and form on reserve page*/
 #container {
     display: flex;
 }
@@ -366,6 +341,7 @@ form {
     border: #e2d6bd solid 5px;
 }
 
+/* Opening hours table */
 #timetable {
     text-align: center;
     vertical-align: middle;
@@ -391,15 +367,16 @@ form {
 
 /* media querys */
 /* Iphones */
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
+    /* Creates general rule for the body and disables scroll horizontaly  */
     body {
         max-width: 100%;
         overflow-x: hidden;
         width: 100%;
     }
 
+    /* Changes to the footer styling */
     footer {
         position: fixed;
         background: none;
@@ -413,6 +390,7 @@ form {
         font-size: 2rem;
     }
 
+    /* Resize hero image */
     .hero-image {
         height: 12.5rem;
         animation: none;
@@ -536,12 +514,11 @@ form {
         display: none;
     }
 
-    #google-map iframe {
+    #google-map {
         position: relative;
         left: 0;
         bottom: -50rem;
     }
-
 
     .textarea {
         width: 22rem;
@@ -585,8 +562,11 @@ form {
 
     .img-link,
     #contact-from,
-    #review-form,
     #container {
+        display: none;
+    }
+
+    #form-review {
         display: none;
     }
 
@@ -621,10 +601,10 @@ form {
         top: 1.25rem;
     }
 
-    #google-map iframe {
+    #google-map {
         position: relative;
         left: 0;
-        top: -10rem;
+        top: -1rem;
     }
 }
 
@@ -721,4 +701,14 @@ form {
         max-height: 100%;
         animation: none;
     }
+}
+
+/* Removes bug for images loading inbetween screen sizess */
+@media screen and (max-width: 758px) {
+
+    #left-img,
+    #right-img {
+        display: none;
+    }
+
 }
