@@ -12,30 +12,21 @@
 </head>
 
 <body>
-    <header>
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1 class="main-header">Castleia</h1>
-                <h2>Castle Inn Road Congleton CW12 4BB • 01261 672548</h2>
-                <h2>info@castleiarestaurant.com</h2>
-            </div>
+    <header class="hero-image">
+        <div class="hero-text">
+            <h1 class="main-header">Castleia</h1>
+            <h2>Castle Inn Road Congleton CW12 4BB • 01261 672548</h2>
+            <h2>info@castleiarestaurant.com</h2>
         </div>
     </header>
-
-
-    <div class="navbar">
+    <nav class="navbar">
         <a href="index.html" aria-label="home"> <i class="fa fa-fw fa-home"></i> Home</a>
         <a href="menu.html" aria-label="menu"><i class="fab fa-elementor"></i> Menu</a>
-        <a class="active" href="reserve.html" aria-label="reserve"><i class="fas fa-edit"></i>Reserve</a>
-        <a href="reviews.html" aria-label="reviews"><i class="fas fa-star"></i> Reviews</a>
+        <a href="reserve.html" aria-label="reserve"><i class="fas fa-edit"></i>Reserve</a>
+        <a class="active" href="reviews.html" aria-label="reviews"><i class="fas fa-star"></i> Reviews</a>
         <a href="contact.html" aria-label="contact"><i class="fas fa-phone"></i> Contact Us</a>
-
-    </div>
-
-
-
-
-    <div class="phone.display">
+    </nav>
+    <section class="phone.display">
         <form class="phone-display">
             <h1>Reserve Your Table Now</h1>
             <label for="name"><strong>Booking Name </strong><i class="fas fa-file-signature"></i></label>
@@ -59,15 +50,11 @@
             <textarea id="textarea" placeholder="Any special requests?"></textarea>
             <label id="submit-review" for="submit">Send Us Your Review</label>
             <input type="submit" aria-label="submit button"> <input type="reset" aria-label="reset form">
-
         </form>
-    </div>
-
-    <div id="container">
+    </section>
+    <section id="container">
         <img id="left-img" src="assets/images/left.jpg" alt="happy family" />
-
-        <div id="reserve-div">
-
+        <section id="reserve-div">
             <form id="reserve">
                 <h1 id="form-title">Reserve Your Table Now</h1>
 
@@ -99,7 +86,7 @@
             <br />
             <br />
             <br />
-            <div id="timetable" aria-selected="true">
+            <section id="timetable" aria-selected="true">
                 <h2>Opening Hours</h2>
                 <table id="table">
                     <tr>
@@ -131,14 +118,14 @@
                         <td>12pm-11pm</td>
                     </tr>
                 </table>
-            </div>
-        </div>
+            </section>
+        </section>
         <img id="right-img" src="assets/images/right.jpg" alt=" raw salmon" />
-    </div>
-
+    </section>
     <footer class="social-footer">
-        <div class="social-footer-left"></div>
-        <div class="social-footer-icons">
+        <section class="social-footer-left">
+        </section>
+        <section class="social-footer-icons">
             <ul class="footer-main">
                 <li>
                     <a href="https://www.facebook.com/" aria-label="Our Facebook Page (Opens in new window)" target="blank"> <i class="fa fa-facebook footer-main" aria-hidden="true"></i></a>
@@ -153,7 +140,7 @@
                     <a href="https://twitter.com/?lang=en" aria-label="Our Twitter Page (Opens in new window)" target="blank"><i class="fa fa-twitter footer-main" aria-hidden="true"></i></a>
                 </li>
             </ul>
-        </div>
+        </section>
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/fdb0145442.js" defer crossorigin="anonymous"></script>
