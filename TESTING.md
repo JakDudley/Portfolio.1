@@ -37,6 +37,8 @@ To guarantee the most accessibility across all pages I ran audits for each page 
 
 ## Lighthouse Reports
 The below screenshots are for lighthouse reports for desktop but when I ran them for mobile they were the same or a little higher, I've chosen to display the desktop reports and lowest to show how I repaired them to increase the report. 
+--- 
+
 **Home Page**
 ![Home Page Lighthouse](/assets/docs/images/index.lighthouse.png)
 
@@ -57,7 +59,7 @@ The below screenshots are for lighthouse reports for desktop but when I ran them
 ![Fixed Contact Us Page Lighthouse](/assets/docs/images/new.contact.lighthouse.png)
 
 As well as using lighthouse I found another [Independent Accessibility Checker](https://www.siteimprove.com/) to further improve my understanding of the accessibility of my website. 
-
+![Independent Check](assets/docs/images/self-check.png)
 After checking and going through all of the reports and editing on Dev Tools I feel much more comfortable and confident using HTML and CSS. On making my next project I will have a head start in making the site more accessible from the start thus ensuring I have more time to perfect the project and less time going over elements, of course still conducting regular tests. 3
 
 

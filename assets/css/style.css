@@ -71,7 +71,7 @@ i {
 
 /* Nav ACtive not working - ask tutor */
 .active {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 
