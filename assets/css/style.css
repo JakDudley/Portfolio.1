@@ -691,11 +691,12 @@ form {
 }
 
 /* Removes bug for images loading inbetween screen sizess */
-@media screen and (max-width: 758px) {
+@media screen and (min-width: 481px) and (max-width:767px) {
 
     #left-img,
     #right-img {
         display: none;
+
     }
 
 }
