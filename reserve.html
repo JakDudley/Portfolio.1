@@ -28,28 +28,20 @@
     </nav>
     <section class="phone.display">
         <form class="phone-display">
-            <h1>Reserve Your Table Now</h1>
-            <label for="name"><strong>Booking Name </strong><i class="fas fa-file-signature"></i></label>
-            <input type="text" class="mobile-input" name="name" aria-label="name input box" required>
-            <label for="email"><strong>Booking Email Address</strong> <i class="far fa-envelope"></i></label>
-            <input type="email" class="mobile-input" name="email" aria-label="email input box" required>
+            <h1> Tell us what you think</h1>
+            <h2> Your Info</h2>
+            <label for="namefull"><strong>Name</strong><i class="fas fa-file-signature"></i></label>
+            <input type="text" class="mobile-input" name="name" required>
+            <label for="emailbox"><strong>Email</strong> <i class="far fa-envelope"></i></label>
+            <input type="email" class="mobile-input" name="email" required>
             <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
-            <input type="number" class="mobile-input" name="number" aria-label="number input form" required>
-            <label for="party-size">Party Size <i class="fas fa-user"></i></label>
-            <select id="guests" name="party-size" aria-label="party size dropdown" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6+">6+</option>
-            </select>
-            <label for="date">When? <i class="far fa-calendar-alt"></i></label>
-            <input type="datetime" id="datetime" name="datetime" aria-label="date and time" required>
+            <input type="number" class="mobile-input" name="number" required>
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date/time" name="datetime" required>
             <hr>
-            <textarea id="textarea" placeholder="Any special requests?"></textarea>
+            <textarea id="textarea" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
             <label id="submit-review" for="submit">Send Us Your Review</label>
-            <input type="submit" aria-label="submit button"> <input type="reset" aria-label="reset form">
+            <input type="submit"> <input type="reset">
         </form>
     </section>
     <section id="container">
@@ -59,13 +51,13 @@
                 <h1 id="form-title">Reserve Your Table Now</h1>
 
                 <label for="fname"> <strong> Name</strong> <i class="fas fa-file-signature"></i> </label>
-                <input type="text" id="fname" name="firstname" required style="font-size: 14pt; height: 40px; width: 320px" />
+                <input class="input-type" type="text" id="fname" name="firstname" required />
                 <hr>
                 <label for="email"><strong>Email</strong> <i class="far fa-envelope"></i></label>
-                <input type="email" id="email" name="email" required style="font-size: 14pt; height: 40px; width: 320px" />
+                <input class="input-type" type="email" id="email" name="email" required />
                 <hr>
                 <label for="number"><strong>Contact Number</strong> <i class="fas fa-phone-volume"></i></label>
-                <input type="number" id="number" name="number" required style="font-size: 14pt; height: 40px; width: 320px" />
+                <input class="input-type" type="number" id="number" name="number" required />
                 <hr>
                 <textarea name="comment" id="comment-area" rows="10" cols="70" placeholder="Any futher details regading your booking e.g dietry needs"></textarea>
                 <hr>
@@ -80,7 +72,7 @@
                 </select>
                 <label for="When">Reservation:</label>
                 <input type="datetime-local" id="date" name="datetime" required>
-                <input type="button" onclick="alert('We look forward to seeing you')" value="Submit"> <input type="reset">
+                <input type="submit"> <input type="reset">
             </form>
             <br />
             <br />
@@ -142,7 +134,7 @@
             </ul>
         </section>
     </footer>
+    <script src="https://kit.fontawesome.com/fdb0145442.js" defer crossorigin="anonymous"></script>
 </body>
-<script src="https://kit.fontawesome.com/fdb0145442.js" defer crossorigin="anonymous"></script>
 
 </html>

@@ -12,6 +12,13 @@ a:hover {
     display: none;
 }
 
+.input-type {
+    font-size: 0.875rem;
+    height: 2.5rem;
+    width: 20rem;
+
+}
+
 /* Targets the entire body of the site. */
 body {
     background-color: #e2d6bd;
@@ -24,6 +31,8 @@ body {
     margin: 0;
     padding-bottom: 3.125rem;
     min-width: 100%;
+    text-align: center;
+
 }
 
 /* Ensures no length scroll is available */
@@ -114,7 +123,7 @@ i {
 
 /* Text included ontop of hero image */
 .hero-text {
-    text-align: center;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,13 +134,13 @@ i {
 
 /* Home page text styling */
 #welcome-text {
-    text-align: center;
+
     padding-top: 5px;
 }
 
 /* Home page opening text */
 #ingredients h3 {
-    text-align: center;
+
     padding-top: 1.875rem;
     text-decoration: none;
 }
@@ -162,7 +171,7 @@ i {
 
 /* Menu PageStyling */
 #container-menu h1 {
-    text-align: center;
+
     border-bottom: whitesmoke solid 50px;
     border-width: medium;
 }
@@ -174,26 +183,22 @@ i {
     border-bottom: medium;
     border-bottom-color: #e2d6bd;
     border-width: medium;
-    text-align: center;
+
 }
 
 #appetisers,
 #mains {
-    text-align: center;
+
     border-bottom: #F5F5F5 solid 5px;
     border-width: medium;
 }
 
 .veg {
-    text-align: center;
+
     font-size: medium;
 }
 
 /* Reviews Page styling */
-#form-contact-title,
-#details-div {
-    text-align: center;
-}
 
 #review-form {
     float: left;
@@ -208,7 +213,7 @@ i {
     margin-left: auto;
     margin-right: auto;
     padding-right: 20%;
-    text-align: center;
+
     padding-top: 5%;
     font-size: 1rem;
 }
@@ -222,7 +227,7 @@ i {
     margin-left: 5%;
     margin-right: 5%;
     height: 37.5rem;
-    text-align: center;
+
     font-size: 3.125rem;
     display: inline-block;
     padding: 1rem 1rem;
@@ -247,26 +252,17 @@ label {
 #parent {
     margin: 1.25rem;
     padding: 2rem 2rem;
-    text-align: center;
+
 }
 
 #contact-form {
-    text-align: center;
+
     margin-top: -4rem;
 }
 
 #form-review input {
     display: flex;
     margin-top: 1.25rem;
-}
-
-#form-contact-title {
-    text-align: center;
-}
-
-/* Centers the google map to thee center of the page */
-#google-map {
-    text-align: center;
 }
 
 /* footer styling */
@@ -322,10 +318,6 @@ label {
     max-width: 100%;
 }
 
-#form-title {
-    text-align: center;
-}
-
 input[type="text"] {
     margin: 8px 0;
     box-sizing: border-box;
@@ -343,7 +335,7 @@ form {
 
 /* Opening hours table */
 #timetable {
-    text-align: center;
+
     vertical-align: middle;
     font-family: "Dosis", sans-serif;
     border-style: solid;
@@ -433,7 +425,7 @@ form {
         display: block;
         background-color: #566573;
         color: #F5F5F5;
-        text-align: center;
+
         border: transparent;
         text-decoration: none;
         padding: 3px;
@@ -444,7 +436,7 @@ form {
     }
 
     #form-div {
-        text-align: center;
+
         vertical-align: middle;
         padding-left: 1.875rem;
         padding-bottom: 1.875rem;
@@ -490,7 +482,7 @@ form {
     }
 
     #mobile-view {
-        text-align: center;
+
         font-size: 100%;
         text-decoration: solid;
         background-color: white;
@@ -541,7 +533,7 @@ form {
         display: block;
         background-color: #566573;
         color: #F5F5F5;
-        text-align: center;
+
         border: transparent;
         text-decoration: none;
         padding: 2px;
@@ -572,7 +564,7 @@ form {
 
     .phone-display {
         display: block;
-        text-align: center;
+
     }
 
     .phone-display,
@@ -612,7 +604,6 @@ form {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .navbar {
-        text-align: center;
         display: inline-block;
         font-weight: 800;
     }
@@ -620,7 +611,7 @@ form {
     .navbar a {
         background-color: #566573;
         color: #F5F5F5;
-        text-align: center;
+
         border: transparent;
         text-decoration: none;
         padding: 0.5rem;
@@ -631,10 +622,6 @@ form {
     body {
         overflow-x: hidden;
         max-width: 100%;
-    }
-
-    .footer-main {
-        text-align: center;
     }
 
     .index-img {
@@ -679,7 +666,7 @@ form {
     }
 
     #reserve-div {
-        text-align: center;
+
         width: 100%;
     }
 
