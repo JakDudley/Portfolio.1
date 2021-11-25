@@ -101,7 +101,6 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 - On this page I made the content read left to right so the user is drawn to fill in the review form. 
 - I used placeholders for each form input type to make the user experience easier. 
 - Each field is requested to put a stop to false information being input. 
-- To make the page feel more real I used an "onclick" command to show the review had been accepted. I used [W3 School](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) to help me to do this. I have shown this in the below screenshot
 ![Screenshot of review page](/assets/docs/images/rev-page.png)
 
 ## Contact Page

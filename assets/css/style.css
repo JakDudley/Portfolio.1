@@ -16,7 +16,6 @@ a:hover {
     font-size: 0.875rem;
     height: 2.5rem;
     width: 20rem;
-
 }
 
 /* Targets the entire body of the site. */
@@ -138,13 +137,11 @@ i {
 
 /* Home page text styling */
 #welcome-text {
-
     padding-top: 5px;
 }
 
 /* Home page opening text */
 #ingredients h3 {
-
     padding-top: 1.875rem;
     text-decoration: none;
 }
@@ -187,7 +184,6 @@ i {
     border-bottom: medium;
     border-bottom-color: #e2d6bd;
     border-width: medium;
-
 }
 
 #appetisers,
@@ -203,7 +199,6 @@ i {
 }
 
 /* Reviews Page styling */
-
 #review-form {
     float: left;
     padding-left: 20%;
@@ -217,7 +212,6 @@ i {
     margin-left: auto;
     margin-right: auto;
     padding-right: 20%;
-
     padding-top: 5%;
     font-size: 1rem;
 }
@@ -231,7 +225,6 @@ i {
     margin-left: 5%;
     margin-right: 5%;
     height: 37.5rem;
-
     font-size: 3.125rem;
     display: inline-block;
     padding: 1rem 1rem;
@@ -256,11 +249,9 @@ label {
 #parent {
     margin: 1.25rem;
     padding: 2rem 2rem;
-
 }
 
 #contact-form {
-
     margin-top: -4rem;
 }
 
@@ -440,7 +431,6 @@ form {
     }
 
     #form-div {
-
         vertical-align: middle;
         padding-left: 1.875rem;
         padding-bottom: 1.875rem;
@@ -453,7 +443,7 @@ form {
 
     #review-page {
         align-items: center;
-        padding-left: 0.625;
+        padding-left: 0.625rem;
     }
 
     .email {
@@ -472,7 +462,6 @@ form {
         inline-size: 20px;
         float: left;
         padding-left: 0;
-
     }
 
     #contact-form input .textarea {
@@ -486,7 +475,6 @@ form {
     }
 
     #mobile-view {
-
         font-size: 100%;
         text-decoration: solid;
         background-color: white;
@@ -537,7 +525,6 @@ form {
         display: block;
         background-color: #566573;
         color: #F5F5F5;
-
         border: transparent;
         text-decoration: none;
         padding: 2px;
@@ -568,7 +555,6 @@ form {
 
     .phone-display {
         display: block;
-
     }
 
     .phone-display,
@@ -666,11 +652,10 @@ form {
     .box-contact {
         width: 50%;
         height: fit-content;
-        font-size: 1.25;
+        font-size: 1.25rem;
     }
 
     #reserve-div {
-
         width: 100%;
     }
 
@@ -700,7 +685,6 @@ form {
     #left-img,
     #right-img {
         display: none;
-
     }
 
 }
