@@ -17,8 +17,21 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 - As I said being in the industry I know what the competition is, I know what the users what and desire on a restaurants site 
 - Customers expect, simple but yet elegancy, the better looking and organised website the higher the chance of them getting a better experience at the venue
 ### Target Audience
-- My target audience is quite broad from; families to businesses and groups of friends, the easier the interaction and navigation the longer the user will choose to stay on the site and be more likely to return and book a table and if not to share to their peers. 
+- Families looking to enjoy great food and a warm, welcoming restaurant. 
+- Businesses looking to book professional dinner dates and staff meetings. 
+- Friend Groups looking to be able to come and have a memorable time in a great environment. 
 - Users that are looking for a new place to dine out who just want to see what information they need ie; booking a table, seeing the menu without having to complete a maze to find and all the needed information to get in touch if need be or even find us on a map. 
+
+### User Stories
+- As a user, I want to see when the restaurant is open.
+- As a user, I want to be able to view the menu on offer.
+- As a user, I want to be able to reserve a table for any time in the future with multiple guests. 
+- As a user, I want to be able to see past customer reviews.
+- As a user, I want to be able to give my feedback after visiting the restaurant. 
+- As a user, I want to be able to contact the restaurant with any queries I may have on the site.
+- As a user, I want to be able to find the restaurant on a live map. 
+- As a user, I want to be able to call the restaurant from my phone while using the site. 
+- As a user, I want to be able to send the restaurant an email. 
 
 ### Site Aims 
 - When creating my site I wanted users to be aesthetically pleased
@@ -52,7 +65,8 @@ After twiddling and adjusting my navbar I found a contrast that worked for all d
 
   **Hero Image** 
 ---
-The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements.
+The hero image is shown at the top of each page (below the nav), by continuing to show the hero image across each page it creates a familiar feel for the user and reminds them of which restaurant they're visiting. To further increase the user experience I have placed text within the hero image which is sat on top, the information within this text makes it possible for the user to have all info on one page if needs be. Upon loading into each page the hero image has a zoom effect, to essentially show off the brand of which is Castleia and force them to notice it and its surrounding elements. 
+Within the marketing industry repetition is a key factor, reminding the customer how they can get in touch is a key factor to improving the chances of the user getting in contact and using the product, in this case visiting the restaurant.
   
   ![hero image display](/assets/docs/images/hero-image-sc.jpg) 
 
@@ -125,9 +139,9 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
   - A pre-book function, when the user opts for 6+ party members the menu is displayed with an option to choose what items each party member wants + adjustments to the food item. 
   - A team page, where the customer can see all of the staff, with images of each person and their role within the company. 
   - A page for guests to buy gift vouchers with the desired value they want with all the details forwarded to their email address. 
-* Indefinitely I would have to understand Javascript to make this possible, I could have created a mock version of this within CSS and HTML but didnt seem fit for my time to do so.  
+* Indefinitely I would have to understand Javascript to make this possible, I could have created a mock version of this within CSS and HTML but didn't seem fit for my time to do so.  
 * Forms 
-    - I wish to make all the forms with the value of push, of course, this would have to make the Castleia a real location. 
+    - I wish to make all the forms with the value of push, of course, this would have to make Castleia a real location. 
 
 # Testing 
 I have created a seperate [Testing.md](/TESTING.md) 

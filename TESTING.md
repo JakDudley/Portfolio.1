@@ -21,10 +21,10 @@ Across Firefox, IE and Edge I ran into an error; When clicking on the image with
 - I later found a fix for this error, I needed to link the page to the deployed site instead of reserve.html.  
 
 ## Independent Testing 
-To have the best feedback possible I asked a good friend of mine who uses a selection of browsers and sites on a daily basis to use the site as if they were a customer and give me their opinions and any bugs they came across. 
+To have the best feedback possible I asked a good friend of mine who uses a selection of browsers and sites daily to use the site as if they were a customer and give me their opinions and any bugs they came across. 
 ![Friend Review](assets/docs/images/friend-review.png)
 
-To futher improve testing, i used the website myself and put myself in the users shoes. I tested all the forms across the site to check they could by typed in with the particular values. I also used the map to see if i was able to move around and check the iframe worked correctly. 
+To further improve testing, I used the website myself and put myself in the users' shoes. I tested all the forms across the site to check they could be typed in with the particular values. I also used the map to see if I was able to move around and check the iframe worked correctly. 
 
 
 
@@ -36,8 +36,8 @@ To validate my CSS I used [W3C](https://jigsaw.w3.org/css-validator/)
 ![CSS validator](assets/docs/images/css-validate.png)
 
 ## DEV tools
-Once i finished the design of the page i wanted to check the CSS to ensure there was no unused code. To do this i opened DEV tools and manually deleted code to see if it was in use, i compilied a list of code that wasnt in use i went back into my CSS stylesheet and deleted unused code, this helped clear up the page and add comments too each section of CSS. 
-To improve my understanding and targeting certain elements I created a rule to change background-color: yellow; doing this made seeingeach element easier so i knew what i needed to change and adjust in my main css. 
+Once I finished the design of the page I wanted to check the CSS to ensure there was no unused code. To do this I opened DEV tools and manually deleted code to see if it was in use, I compiled a list of code that wasn't in use I went back into my CSS stylesheet and deleted unused code, this helped clear up the page and add comments to each section of CSS. 
+To improve my understanding and target certain elements I created a rule to change background-color: yellow; doing this made seeing each element easier so I knew what I needed to change and adjust in my main CSS. 
 
 # Lighthouse 
 I completed lighthouse audits in incognito mode to ensure any chrome extensions didn't interfere with the report.
@@ -71,10 +71,10 @@ As well as using lighthouse I found another [Independent Accessibility Checker](
 After checking and going through all of the reports and editing on Dev Tools I feel much more comfortable and confident using HTML and CSS. On making my next project I will have a head start in making the site more accessible from the start thus ensuring I have more time to perfect the project and less time going over elements, of course still conducting regular tests.
 
 # Changes Along the Way 
-Throughout the course of my project I made decisons that effected the way the website runs and displays now as a finished project. 
-- On each of the forms I origanlly used a code from [W3](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) But after testing this feature out i realised that it did not clear the form like a submit button would. If my knowledge of JavaScript was better i would of kept this in but to keep my site as realisitc and funcitnol as possible i decided to stick with a simple submit type. 
-- When I started the project there were only infact three pages, Home, Reviews and menu. Booking a table was on the home page as I wanted to force this upon the user, but it was pointed out to me by peers and fellow students that when they visited the site for the first time it didnt feel like they were on a home page and often tried refreshing the page. After hearing this feedback i decided to make the reserve page. By doing this I made an additional page which is now fully funcitnal and created the home page we see today, with a simple paragraph and some images it quickly became a much better feeling site. 
-- The forms on media querys, at first i created the site for desktop and when it came to the forms for smaller devices it massively deformed the screen, so i took the inititive to create forms for smaller screens and displying them as hidden, i found this to work effective and also improved my ability in CSS. 
+Throughout the course of my project, I made decisions that affected the way the website runs and displays now as a finished project. 
+- On each of the forms I originally used a code from [W3](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) But after testing this feature out I realised that it did not clear the form like a submit button would. If my knowledge of JavaScript was better I would have kept this in but to keep my site as realistic and functional as possible I decided to stick with a simple submit type. 
+- When I started the project there were only in fact three pages, Home, Reviews and menu. Booking a table was on the home page as I wanted to force this upon the user, but it was pointed out to me by peers and fellow students that when they visited the site for the first time it didn't feel like they were on a home page and often tried refreshing the page. After hearing this feedback I decided to make the reserve page. By doing this I made an additional page that is now fully functional and created the home page we see today, with a simple paragraph and some images it quickly became a much better feeling site. 
+- The forms on media queries, at first I created the site for desktop and when it came to the forms for smaller devices it massively deformed the screen, so I took the initiative to create forms for smaller screens and displaying them as hidden, I found this to work effectively and also improved my ability in CSS. 
 
 
  [Back to README](/README.md) 
