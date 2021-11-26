@@ -146,6 +146,10 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 # Testing 
 I have created a seperate [Testing.md](/TESTING.md) 
 
- 
+<!-- Add comments to HTML  -->
+<!-- add refrences  -->
+<!-- add credits -->
+ <!-- image sources  -->
+ <!-- coppied code -->
 
 
