@@ -74,7 +74,7 @@ i {
 /* Hover and active features for the navbar */
 .navbar a:hover {
     text-transform: uppercase;
-    font-weight: bold
+    font-weight: bold;
 }
 
 /* Disaplay uppercase text in navbar on active page*/
@@ -139,21 +139,6 @@ i {
 #ingredients h3 {
     padding-top: 1.875rem;
     text-decoration: none;
-}
-
-.left.img {
-    width: 960px;
-    height: 639px;
-}
-
-.middle.img {
-    width: 1999px;
-    height: 734px;
-}
-
-.right.img {
-    width: 960px;
-    height: 639px;
 }
 
 .index-img {
