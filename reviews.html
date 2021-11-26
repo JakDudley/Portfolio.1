@@ -29,12 +29,12 @@
     <section class="phone.display">
         <form class="phone-display" action="#">
             <h2> Tell Us What You Think</h2>
-            <label>Name<i class="fas fa-file-signature"></i></label>
-            <input type="text" class="mobile-input" name="name" required>
-            <label>Email<i class="far fa-envelope"></i></label>
-            <input type="email" class="mobile-input" name="email" required>
-            <label>Our service to you <i class="fas fa-star"></i></label>
-            <select name="heart" required>
+            <label for="name.review.mobile">Name<i class="fas fa-file-signature"></i></label>
+            <input type="text" id="name.review.mobile" class="mobile-input" name="name" required>
+            <label id="email.review.mobile">Email<i class="far fa-envelope"></i></label>
+            <input type="email" id="email.review.mobile" class="mobile-input" name="email" required>
+            <label for="review.mobile">Our service to you <i class="fas fa-star"></i></label>
+            <select id="review.mobile" name="heart" required>
                 <option value="">Review</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -42,8 +42,8 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
-            <label>Date of visit</label>
-            <input type="date" id="date/time" name="datetime" required>
+            <label for="date.review.mobile">Date of visit</label>
+            <input type="date" id="date.review.mobile" name="datetime" required>
             <hr>
             <textarea id="textarea" placeholder="How did we do?"></textarea>
             <label>Send Us Your Review</label>
@@ -54,14 +54,14 @@
     <section id="review-form">
         <form id="form-review" action="#">
             <h2 id="info-review">Tell us what you think</h2>
-            <label>Name<i class="fas fa-file-signature"></i></label>
-            <input class="input-type" type="text" id="full-name" name="name" required />
+            <label for="name.review.desktop">Name<i class="fas fa-file-signature"></i></label>
+            <input class="input-type" type="text" id="name.review.desktop" name="name" required />
             <hr>
-            <label>Email<i class="far fa-envelope"></i></label>
-            <input class="input-type" type="email" id="emailtype" name="email" required />
+            <label for="email.review.desktop">Email<i class="far fa-envelope"></i></label>
+            <input class="input-type" type="email" id="email.review.desktop" name="email" required />
             <hr>
-            <label>Our Service To You <i class="fas fa-star"></i></label>
-            <select name="heart" required>
+            <label for="review.desktop">Our Service To You <i class="fas fa-star"></i></label>
+            <select name="heart" id="review.desktop" required>
                 <option value="">Review</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -70,8 +70,8 @@
                 <option value="5">5</option>
             </select>
             <hr>
-            <label>Date Of Visit <i class="far fa-calendar-alt"></i></label>
-            <input type="date" id="date>time" name="datetime" required>
+            <label for="date.review.desktop">Date Of Visit <i class="far fa-calendar-alt"></i></label>
+            <input type="date" id="date.review.desktop" name="date" required>
             <hr>
             <textarea class="textarea" id="texta" rows="10" cols="70" placeholder="How did we do?"></textarea>
             <input type="submit"> <input type="reset">
