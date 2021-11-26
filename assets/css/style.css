@@ -166,8 +166,10 @@ i {
 }
 
 /* Menu PageStyling */
-#container-menu h1 {
 
+
+#container-menu h2,
+.menu-titles {
     border-bottom: whitesmoke solid 50px;
     border-width: medium;
 }
@@ -297,6 +299,7 @@ label {
 #container {
     display: flex;
 }
+
 
 /* img styling */
 #right-img,
