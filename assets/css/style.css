@@ -87,7 +87,6 @@ i {
     text-transform: uppercase;
 }
 
-
 /* Header and hero-image styling rules */
 .main-header {
     color: #E2D6BD;
@@ -153,6 +152,8 @@ i {
     justify-content: center;
     padding-top: 2%;
     z-index: 1;
+    width: 100%;
+    height: auto;
 }
 
 .index-img {
@@ -191,13 +192,11 @@ i {
 
 #appetisers,
 #mains {
-
     border-bottom: #F5F5F5 solid 5px;
     border-width: medium;
 }
 
 .veg {
-
     font-size: medium;
 }
 
@@ -306,7 +305,6 @@ label {
     display: flex;
 }
 
-
 /* img styling */
 #right-img,
 #left-img {
@@ -341,7 +339,6 @@ form {
 
 /* Opening hours table */
 #timetable {
-
     vertical-align: middle;
     font-family: "Dosis", sans-serif;
     border-style: solid;
@@ -619,7 +616,6 @@ form {
         font-size: 1.25rem;
         padding-right: 1rem;
         width: 25%;
-
     }
 
     body {
