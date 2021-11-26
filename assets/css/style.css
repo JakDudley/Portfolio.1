@@ -95,7 +95,7 @@ i {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-1.webp");
     width: auto;
     height: 30%;
     background-position: center;
@@ -107,8 +107,8 @@ i {
 
 /* hero -image animation sytling */
 .hero-image {
-    height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
+    height: 37.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image-1.webp");
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
