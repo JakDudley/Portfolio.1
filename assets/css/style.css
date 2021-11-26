@@ -46,11 +46,6 @@ html {
     overflow-x: hidden;
 }
 
-.middle.img {
-    width: auto;
-    height: auto;
-}
-
 /* Creates space between navbar text and icons */
 i {
     margin-left: 1.75rem;
@@ -144,6 +139,21 @@ i {
 #ingredients h3 {
     padding-top: 1.875rem;
     text-decoration: none;
+}
+
+.left.img {
+    width: 960px;
+    height: 639px;
+}
+
+.middle.img {
+    width: 1999px;
+    height: 734px;
+}
+
+.right.img {
+    width: 960px;
+    height: 639px;
 }
 
 .index-img {
