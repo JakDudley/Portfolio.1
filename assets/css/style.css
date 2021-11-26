@@ -408,8 +408,13 @@ form {
     }
 
     #left-img,
-    #right-img {
+    #right-img,
+    #form-review-title {
         display: none;
+    }
+
+    #info-review {
+        font-size: 1.25rem;
     }
 
     .mobile-title {
