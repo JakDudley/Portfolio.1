@@ -133,12 +133,15 @@ i {
 /* Home page text styling */
 .welcome-text {
     padding-top: 5px;
+    font-size: 1.5rem;
+    text-decoration: solid;
 }
 
 /* Home page opening text */
-#ingredients h3 {
+#ingredients p {
     padding-top: 1.875rem;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .index-img {
@@ -198,6 +201,11 @@ i {
 }
 
 /* Reviews Page styling */
+
+#form-review-title {
+    padding-top: 5rem;
+}
+
 #review-form {
     float: left;
     padding-left: 20%;
@@ -390,10 +398,14 @@ form {
         top: 2rem;
     }
 
-    .index-img {
-        display: none;
+    .welcome-text {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        text-decoration: solid;
     }
 
+    .desktop-message,
+    .index-img,
     .img-link {
         display: none;
     }
@@ -453,7 +465,7 @@ form {
 
     #review-page {
         align-items: center;
-        padding-left: 0.625rem;
+        margin-right: 3rem;
     }
 
     .email {
@@ -544,6 +556,11 @@ form {
         margin-right: auto;
         background-color: rgb(255, 255, 255, 0.1);
     }
+
+    .desktop-message {
+        display: none;
+    }
+
 
     .img-link,
     #contact-from,
