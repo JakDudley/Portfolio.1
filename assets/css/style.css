@@ -50,11 +50,6 @@ i {
     margin-left: 1.75rem;
 }
 
-/* Creates gap between top line of text and hero image zoom */
-#welcome-text h1 {
-    padding-top: 1.75rem;
-}
-
 /* Navbar styling rules */
 .navbar {
     position: fixed;
@@ -136,7 +131,7 @@ i {
 }
 
 /* Home page text styling */
-#welcome-text {
+.welcome-text {
     padding-top: 5px;
 }
 
@@ -313,6 +308,13 @@ label {
     max-width: 100%;
 }
 
+#reserve-div>h2 {
+    text-align: center;
+    padding-top: 1.25rem;
+    font-size: 1.75rem;
+    text-decoration: solid;
+}
+
 input[type="text"] {
     margin: 8px 0;
     box-sizing: border-box;
@@ -405,6 +407,11 @@ form {
     #left-img,
     #right-img {
         display: none;
+    }
+
+    .mobile-title {
+        text-align: center;
+        background-color: yellow;
     }
 
     .social-footer {
@@ -549,6 +556,10 @@ form {
         display: none;
     }
 
+    .mobile-title {
+        font-size: 1rem;
+    }
+
     #form-review {
         display: none;
     }
@@ -594,19 +605,20 @@ form {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .navbar {
-        display: inline-block;
+        display: block;
         font-weight: 800;
     }
 
     .navbar a {
         background-color: #566573;
         color: #F5F5F5;
-
         border: transparent;
         text-decoration: none;
         padding: 0.5rem;
         font-size: 1.25rem;
-        padding-left: 0;
+        padding-right: 1rem;
+        width: 25%;
+
     }
 
     body {
