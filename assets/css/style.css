@@ -152,7 +152,9 @@ i {
     justify-content: center;
     padding-top: 2%;
     z-index: 1;
-    width: 100%;
+}
+
+.middle.img {
     height: auto;
 }
 
