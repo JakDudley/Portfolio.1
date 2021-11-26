@@ -101,7 +101,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 - On this page I made the content read left to right so the user is drawn to fill in the review form. 
 - I used placeholders for each form input type to make the user experience easier. 
 - Each field is requested to put a stop to false information being input. 
-![Screenshot of review page](/assets/docs/images/rev-page.png)
+![Screenshot of review page](/assets/docs/images/remove-js.png)
 
 ## Contact Page
 - The contact page is one of my favourites because I got to use a variation of different code, such as "Display - Padding - Vertical Align" using many CSS styles allowed me to understand how they all worked, improving my knowledge. 
