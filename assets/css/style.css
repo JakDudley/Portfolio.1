@@ -786,6 +786,42 @@ form {
     }
 }
 
+/* Samsung Tablets */
+@media screen and (min-width: 360px) {
+    #container {
+        display: block;
+    }
+
+    #reserve-div>h2 {
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 1.75rem;
+        text-decoration: solid;
+    }
+
+    .social-footer {
+        background-color: white solid;
+    }
+
+    .footer-main {
+        display: table;
+        background-color: rgb(255, 255, 255, 0.9);
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .social-footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-text h2 {
+        font-size: 1.25rem;
+    }
+
+
+}
+
 /* Laptop Display */
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
 
@@ -795,6 +831,8 @@ form {
         animation: none;
     }
 }
+
+
 
 /* Removes bug for images loading inbetween screen sizess */
 @media screen and (min-width: 481px) and (max-width:767px) {
