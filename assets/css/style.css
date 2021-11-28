@@ -175,8 +175,6 @@ i {
 }
 
 /* Menu PageStyling */
-
-
 #container-menu h2,
 .menu-titles {
     border-bottom: whitesmoke solid 50px;
@@ -203,7 +201,6 @@ i {
 }
 
 /* Reviews Page styling */
-
 #form-review-title {
     padding-top: 5rem;
 }
@@ -418,33 +415,29 @@ form {
         display: none;
     }
 
-    /* The dropdown container */
     .dropdown {
         float: left;
         overflow: hidden;
         display: inline;
     }
 
-    /* Dropdown button */
     .dropdown .dropbtn {
-        font-size: 16px;
+        font-size: 1.25rem;
         border: none;
         outline: none;
         color: #000000;
-        padding: 14px 16px;
+        padding: 0.875rem 1rem;
         background-color: inherit;
         font-family: inherit;
-        /* Important for vertical align on mobile phones */
         margin: 0;
     }
 
-    /* Dropdown content (hidden by default) */
     .dropdown-content {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        min-width: 10rem;
+        box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
 
@@ -458,14 +451,15 @@ form {
         text-align: left;
     }
 
-    /* Add a grey background color to dropdown links on hover */
-    .dropdown-content a:hover {
-        background-color: #ddd;
+    .dropdown-content a .active {
+        background-color: #e2d6bd;
+        color: #000000;
     }
 
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
         display: block;
+        color: #e2d6bd;
     }
 
     .welcome-text {
@@ -599,32 +593,39 @@ form {
         padding-top: 5rem;
         font-size: 1.75rem;
         text-decoration: solid;
+    }
 
+    .social-footer {
+        background-color: white solid;
+    }
+
+    .footer-main {
+        display: table;
+        background-color: rgb(255, 255, 255, 0.9);
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .social-footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-text h2 {
+        font-size: 1.25rem;
     }
 }
-
 
 /* media querys */
 /* Iphones */
 
 @media only screen and (max-width:320px) {
-    .navbar a {
-        display: block;
-        background-color: #566573;
-        color: #F5F5F5;
-        border: transparent;
-        text-decoration: none;
-        padding: 2px;
-        font-size: 1.25rem;
-        padding-left: 0;
+    .main-header {
+        font-size: 3rem;
     }
 
     .social-footer {
-        background-color: white solid
-    }
-
-    .main-header {
-        font-size: 3rem;
+        background-color: white solid;
     }
 
     .footer-main {
