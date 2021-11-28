@@ -14,7 +14,7 @@ Before even thinking about what HTML and CSS I was going to be using I needed to
 
 ### Business Type 
 - Restaurant, I chose to go down the restaurant path purely because I've been in the hospitality industry for 7 years myself and chose this giving myself the advantage of content for the site. 
-- As I said being in the industry I know what the competition is, I know what the users what and desire on a restaurants site 
+- As I said being in the industry I know what the competition is, I know what the users want and desire on a restaurants site 
 - Customers expect, simple but yet elegancy, the better looking and organised website the higher the chance of them getting a better experience at the venue
 ### Target Audience
 - Families looking to enjoy great food and a warm, welcoming restaurant. 
@@ -84,7 +84,6 @@ I placed the footer at the bottom of my site mirrored with the navbar to keep co
 
 ![footer hover](assets/docs/images/footer-hover.png)
 
-
 ## Icons and Font use 
 Across the site I have used two fonts:
  -  Source Code Pro  [Google fonts](https://fonts.google.com/)
@@ -101,6 +100,7 @@ All icons I used were from Font Awesome. [FontAwesome](https://fontawesome.com/)
 - As this is the first page the user loads into I needed to make it look classy and appealing. 
 - I typed up phrases to make the customer feel good, I also used capitalization on the word "you" to grab the users attention and involve them within the site.
 - I've included three separate images to catch the users attention by making them bright and related to the content written above, I used style to have them all line up next to each other with the same zoom effect that I used on the hero image.
+- Further on down the line I decide to change the image displaying in the centre of the three to the opening times table taken from the reserve page, to make the site even more interactive I made this image a hyperlink to the reserve a table page and placed text in in the paragraph informing the user of the link to make their life easier.
 ![Screenshot of home page](/assets/docs/images/home-page.png) 
 
 

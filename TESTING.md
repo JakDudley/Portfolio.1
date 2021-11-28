@@ -26,8 +26,6 @@ To have the best feedback possible I asked a good friend of mine who uses a sele
 
 To further improve testing, I used the website myself and put myself in the users' shoes. I tested all the forms across the site to check they could be typed in with the particular values. I also used the map to see if I was able to move around and check the iframe worked correctly. 
 
-
-
 # Validator 
 To validate my HTML I used [W3C](https://validator.w3.org/) 
 ![Validate HTML](assets/docs/images/html-validate.png)
@@ -35,6 +33,13 @@ To validate my HTML I used [W3C](https://validator.w3.org/)
 To validate my CSS I used [W3C](https://jigsaw.w3.org/css-validator/)
 ![CSS validator](assets/docs/images/css-validate.png)
 
+## Peer Code Review 
+With my project coming to an end I decided to use the **Peer Code Review** within the Slack commuinity, here I was fed some feedback regarding my site on smaller devices. 
+- One **peer** said that the Navbar feels a little cramped on her smaller samsung device, to combat this issue on all smaller devices i decided to have a think and look into other restaurant websites on my mobile, after researching I decided to create a clickable dropdown menu. Most of the current modern versions of these used Javascript and as I stated my knowledge of JS isnt good enough to do so. I googled and found a viable menu hosted on [W3](https://www.w3schools.com/howto/howto_js_dropdown.asp). I have used W3 a few times within this project, to make it my own I added more page links and created aactive class to emulate the design of the navbar on the desktop version of the site, the only issue i had with this was of course Javascript so i adjustedthe code to make it work without JS and only for mobile, removing any hover functions and certain claasses to reducde unneeded code within my style.css. 
+![Mobile dropdown menu](assets/docs/images/mobile.nav.png)
+
+- A **peer** also mentioned that the footer transparency on their mobile device, as I thought it looked okay i looked into it futher. After testing it for myself on my own mobile and a friends i noticed that main text of the page was visable through the footer, to disable this i decided to increase the width of the current footer, I removed the margin which is applied to the desktop footer, in addition to these code changes within the media query i also added a background color to make sure text wasnt visable through the footer. 
+![Mobile footer](assets/docs/imaages/mobile-footer.png)
 ## DEV tools
 Once I finished the design of the page I wanted to check the CSS to ensure there was no unused code. To do this I opened DEV tools and manually deleted code to see if it was in use, I compiled a list of code that wasn't in use I went back into my CSS stylesheet and deleted unused code, this helped clear up the page and add comments to each section of CSS. 
 To improve my understanding and target certain elements I created a rule to change background-color: yellow; doing this made seeing each element easier so I knew what I needed to change and adjust in my main CSS. 
