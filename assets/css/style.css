@@ -396,13 +396,73 @@ form {
         height: 12.5rem;
         animation: none;
         width: 100%;
-        top: 2rem;
     }
 
     .welcome-text {
         padding-top: 1rem;
         font-size: 1.5rem;
         text-decoration: solid;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* The dropdown container */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: #000000;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        /* Important for vertical align on mobile phones */
+        margin: 0;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .welcome-text {
+        margin-top: 15%;
+    }
+
+    .menu-titles {
+        margin-top: 20%;
     }
 
     .desktop-message,
@@ -436,21 +496,6 @@ form {
         font-size: small;
         margin: 1rem;
         top: 5%;
-    }
-
-    .navbar a {
-        float: left;
-        display: block;
-        background-color: #566573;
-        color: #F5F5F5;
-
-        border: transparent;
-        text-decoration: none;
-        padding: 3px;
-    }
-
-    .navbar i {
-        display: none;
     }
 
     #form-div {
@@ -531,6 +576,22 @@ form {
         width: 40rem;
     }
 }
+
+@media only screen and (min-width:375px) {
+
+    #container {
+        display: block;
+    }
+
+    #reserve-div>h2 {
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 1.75rem;
+        text-decoration: solid;
+
+    }
+}
+
 
 /* media querys */
 /* Iphones */
