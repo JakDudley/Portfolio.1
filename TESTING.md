@@ -52,6 +52,8 @@ To guarantee the most accessibility across all pages I ran audits for each page 
 
 ## Lighthouse Reports
 The below screenshots are for lighthouse reports for desktop but when I ran them for mobile they were the same or a little higher, I've chosen to display the desktop reports and lowest to show how I repaired them to increase the report. 
+Throughout running my lighthouse reports it was reccomened that I display images in a WEBp format, after reading through an article I further understood that the use of WEBp provides better lossy and lossless compression for images on the web. 
+To improve my audits i converted all of my images through [Convertio](https://convertio.co/png-webp/). 
 --- 
 
 **Home Page**
