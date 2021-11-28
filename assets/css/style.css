@@ -8,7 +8,8 @@ a:hover {
 }
 
 /* Mobile Forms */
-.phone-display {
+.phone-display,
+.dropdown {
     display: none;
 }
 
@@ -379,7 +380,7 @@ form {
 
     /* Changes to the footer styling */
     footer {
-        position: fixed;
+        position: absolute;
         background: none;
     }
 
@@ -412,6 +413,7 @@ form {
     .dropdown {
         float: left;
         overflow: hidden;
+        display: inline;
     }
 
     /* Dropdown button */
@@ -785,8 +787,4 @@ form {
 
 }
 
-@media (min-width:1025px) {
-    .dropdown {
-        display: none;
-    }
-}
+@media (min-width:1025px) {}
