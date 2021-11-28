@@ -577,7 +577,7 @@ form {
     }
 }
 
-@media only screen and (min-width:375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 
     #container {
         display: block;
@@ -783,4 +783,10 @@ form {
         display: none;
     }
 
+}
+
+@media (min-width:1025px) {
+    .dropdown {
+        display: none;
+    }
 }
