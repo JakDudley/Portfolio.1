@@ -384,8 +384,17 @@ form {
         background: none;
     }
 
-    .footer.main {
-        background: none;
+
+    .footer-main {
+        display: table;
+        background-color: rgb(255, 255, 255, 0.9);
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .social-footer {
+        margin: 0;
+        padding: 0;
     }
 
     .main-header {
@@ -610,15 +619,24 @@ form {
         padding-left: 0;
     }
 
+    .social-footer {
+        background-color: white solid
+    }
+
     .main-header {
         font-size: 3rem;
     }
 
     .footer-main {
         display: table;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(255, 255, 255, 0.1);
+        background-color: rgb(255, 255, 255, 0.9);
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .social-footer {
+        margin: 0;
+        padding: 0;
     }
 
     .desktop-message {
