@@ -162,7 +162,7 @@ Across my project, I have had great support from the following people.
 
 - [Stephen Darcy](https://github.com/darco31) Mr Stephen Darcy, a fellow student, a living legend has been through thick and thin with me over this project, he to has advised, supported and tested my site multiple times. A great prosper in the coding world. 
 
-- [Richard Wslls](https://github.com/D0nni387) Last but certainly not least, the best mentor on planet Earth. Richard has gone above and beyond to support me. When I was appointed Mr Wells as a new mentor I wasn't sure what to expect but he has pushed me to everything I am today, he has pushed all boundaries to keep me grounded and lifted me when I needed it the most, this man deserves all the praise he gets. 
+- [Richard Wells](https://github.com/D0nni387) Last but certainly not least, the best mentor on planet Earth. Richard has gone above and beyond to support me. When I was appointed Mr Wells as a new mentor I wasn't sure what to expect but he has pushed me to everything I am today, he has pushed all boundaries to keep me grounded and lifted me when I needed it the most, this man deserves all the praise he gets. 
 
 - [The Entire Slack Community](https://slack.com/intl/en-gb/) What a fantastic community we have, constant support and guidance even at silly o'clock in the morning/ night. I am proud to be a part of it.
 
