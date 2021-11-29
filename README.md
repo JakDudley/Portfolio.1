@@ -154,35 +154,35 @@ I have created a seperate [Testing.md](/TESTING.md)
 
 # Credits 
 ## Personal Mentions
-Across my project I have had great support from the following people. 
+Across my project, I have had great support from the following people. 
 
-- [Ollie Train](https://github.com/Olivertrain1221) From the start of my project I have had assistance from a new friend called Ollie who i met within the Slack community, he has helped me realise that I do have the abilaty to complete what i have, we have shared many calls together to work through problems together, a massive shout out to this man. 
+- [Ollie Train](https://github.com/Olivertrain1221) From the start of my project I have had assistance from a new friend called Ollie whom I met within the Slack community, he has helped me realise that I do have the ability to complete what I have, we have shared many calls to work through problems together, a massive shout out to this man. 
 
-- [David Bowers](https://github.com/dnlbowers) David has been nothing but a 1st class hero when its come to this project, he's helped me across the board with testing, advising and supporting I wouldnt be where I am today without him. 
+- [David Bowers](https://github.com/dnlbowers) David has been nothing but a 1st class hero when it comes to this project, he's helped me across the board with testing, advising and supporting I wouldn't be where I am today without him. 
 
-- [Stephen Darcy](https://github.com/darco31) Mr Stephen Darcy, a fellow student, a living legend has been through thick and thin with me over this project, he to has advised, supported and tested my site multiple times. A great prospur in the coding world. 
+- [Stephen Darcy](https://github.com/darco31) Mr Stephen Darcy, a fellow student, a living legend has been through thick and thin with me over this project, he to has advised, supported and tested my site multiple times. A great prosper in the coding world. 
 
-- [Richard Wslls](https://github.com/D0nni387) Last but certanily not least, the best mentor on planet earth. Richard has gone above and beyond to support me. When I was apointed MR Wells as a new mentor I wasnt sure what tot ecpect but he has pushed me to eveyrhting i am today, he has pushed all boundries to keeping me grounded and lifting me up when i needed it the most, this man deserves all the praise he gets. 
+- [Richard Wslls](https://github.com/D0nni387) Last but certainly not least, the best mentor on planet Earth. Richard has gone above and beyond to support me. When I was appointed Mr Wells as a new mentor I wasn't sure what to expect but he has pushed me to everything I am today, he has pushed all boundaries to keep me grounded and lifted me when I needed it the most, this man deserves all the praise he gets. 
 
-- [The Entire Slack Community](https://slack.com/intl/en-gb/) What a fantastic community we really have, constant support and guidance even at silly o'clock in the morning/ night. I am proud to be a part of it.
+- [The Entire Slack Community](https://slack.com/intl/en-gb/) What a fantastic community we have, constant support and guidance even at silly o'clock in the morning/ night. I am proud to be a part of it.
 
 ## General 
 
-Throughout my project I have tried to keep everything my own code but some code was influenced by The Love Running project. 
-i Used [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and the Code institue tutor live chat throughout my project to acomplish what i have. 
+Throughout my project, I have tried to keep everything my code but some code was influenced by The Love Running project. 
+I Used [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/) and the Code Institue tutor live chat throughout my project to accomplish what I have. 
 
 # Content 
 - All content on the pages is that of my own. 
-- All icons i used on the page were used from [Font Awesome](https://fontawesome.com/).
+- All icons I used on the page was used from [Font Awesome](https://fontawesome.com/).
 - My fonts were taken from [Google Fonts](https://fonts.google.com/)
 - My personal ![Independent Checker](assets/docs/images/self-check.png)
-- When it came to converting images to WEBp i used [Convertio](https://convertio.co/png-webp/)
-- To compress my images i used [TinyPNG](https://tinypng.com/)
-- To calculate pixels to rems i used [PX to Rem Calculator](https://nekocalc.com/px-to-rem-converter)
+- When it came to converting images to WEBp I used [Convertio](https://convertio.co/png-webp/)
+- To compress my images I used [TinyPNG](https://tinypng.com/)
+- To calculate pixels to rems I used [PX to Rem Calculator](https://nekocalc.com/px-to-rem-converter)
 
 # Media 
-- For all my images i used [Pexels](https://www.pexels.com/)
-- Screenshot thats on the top of README.md [Am I Responsive](http://ami.responsivedesign.is/)
+- For all my images I used [Pexels](https://www.pexels.com/)
+- Screenshot that's on the top of README.md [Am I Responsive](http://ami.responsivedesign.is/)
 
 
 

@@ -579,7 +579,7 @@ form {
     }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) {
 
     #container {
         display: block;
@@ -593,7 +593,7 @@ form {
     }
 
     .social-footer {
-        background-color: white solid;
+        background-color: white;
     }
 
     .footer-main {
@@ -622,7 +622,7 @@ form {
     }
 
     .social-footer {
-        background-color: #FFFFFF solid;
+        background-color: #FFFFFF;
     }
 
     .footer-main {
@@ -790,7 +790,7 @@ form {
     }
 
     .social-footer {
-        background-color: #FFFFFF solid;
+        background-color: #FFFFFF;
     }
 
     .footer-main {
