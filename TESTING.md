@@ -17,31 +17,31 @@ After the completion of my site, I conducted testing within different browsers.
 
 Across Firefox, IE and Edge I ran into an error; When clicking on the image with the link to the reserve page I got the below; 
 - To fix this issue I asked the Slack community but I am yet to hear any fix or reason for this message. 
-![Error 404](assets/docs/images/error-display.png) 
+![Error 404](docs/images/error-display.png) 
 - I later found a fix for this error, I needed to link the page to the deployed site instead of reserve.html.  
 
 ## Independent Testing 
 To have the best feedback possible I asked a good friend of mine who uses a selection of browsers and sites daily to use the site as if they were a customer and give me their opinions and any bugs they came across. 
-![Friend Review](assets/docs/images/friend-review.png)
+![Friend Review](docs/images/friend-review.png)
 
 To further improve testing, I used the website myself and put myself in the users' shoes. I tested all the forms across the site to check they could be typed in with the particular values. I also used the map to see if I was able to move around and check the iframe worked correctly. 
 
 # Validator 
 To validate my HTML I used [W3C](https://validator.w3.org/) 
-![Validate HTML](assets/docs/images/html-validate.png)
+![Validate HTML](docs/images/html-validate.png)
 
 To validate my CSS I used [W3C](https://jigsaw.w3.org/css-validator/)
-![CSS validator](assets/docs/images/css-validate.png)
+![CSS validator](docs/images/css-validate.png)
 
 ## Peer Code Review 
 With my project coming to an end I decided to use the **Peer Code Review** within the Slack community, here I was fed some feedback regarding my site on smaller devices. 
 - One **peer** said that the Navbar feels a little cramped on her smaller Samsung device, to combat this issue on all smaller devices I decided to have a think and look into other restaurant websites on my mobile, after researching I decided to create a clickable dropdown menu. Most of the current modern versions of these use Javascript and as I stated my knowledge of JS isn't good enough to do so. I googled and found a viable menu hosted on [W3](https://www.w3schools.com/howto/howto_js_dropdown.asp). I have used W3 a few times within this project, to make it my own I added more page links and created an active class to emulate the design of the navbar on the desktop version of the site, the only issue I had with this was, of course, Javascript so I adjusted the code to make it work without JS and only for mobile, removing any hover functions and certain classes to reduce unneeded code within my style.css. 
 
 
-![Mobile dropdown menu](assets/docs/images/mobile.nav.png)
+![Mobile dropdown menu](docs/images/mobile.nav.png)
 
 - A **peer** also mentioned that the footer transparency on their mobile device, as I thought it looked okay I looked into it further. After testing it for myself on my mobile and a friend's I noticed that the main text of the page was visible through the footer, to disable this I decided to increase the width of the current footer, I removed the margin which is applied to the desktop footer, in addition to these code changes within the media query I also added a background color to make sure text wasn't visible through the footer. 
-![Mobile footer](assets/docs/images/mobile-footer.png)
+![Mobile footer](docs/images/mobile-footer.png)
 ## DEV tools
 Once I finished the design of the page I wanted to check the CSS to ensure there was no unused code. To do this I opened DEV tools and manually deleted code to see if it was in use, I compiled a list of code that wasn't in use I went back into my CSS stylesheet and deleted unused code, this helped clear up the page and add comments to each section of CSS. 
 To improve my understanding and target certain elements I created a rule to change background-color: yellow; doing this made seeing each element easier so I knew what I needed to change and adjust in my main CSS. 
@@ -57,26 +57,26 @@ To improve my audits I converted all of my images through [Convertio](https://co
 --- 
 
 **Home Page**
-![Home Page Lighthouse](/assets/docs/images/index.lighthouse.png)
+![Home Page Lighthouse](docs/images/index.lighthouse.png)
 
 **Menu Page**
-![Menu Page Lighthouse](/assets/docs/images/menu.lighthouse.png)
+![Menu Page Lighthouse](docs/images/menu.lighthouse.png)
 
 **Reserve Page Before & After**
-![Reserve Page Lighthouse](/assets/docs/images/reserve.lighthouse.png)
+![Reserve Page Lighthouse](docs/images/reserve.lighthouse.png)
   - I read through the report and made changes to ARIA ids along with removing an aria label from the navbar. 
-![Fixed Reserve Page Lighthouse](/assets/docs/images/fix.reserve.lighthouse.png)
+![Fixed Reserve Page Lighthouse](docs/images/fix.reserve.lighthouse.png)
 
 **Review Page** 
-![Review Page Lighthouse](/assets/docs/images/reviews.lighthouse.png)
+![Review Page Lighthouse](docs/images/reviews.lighthouse.png)
 
 **Contact Page Before & After**
-![Contact Us Page Lighthouse](/assets/docs/images/contact.lighthouse.png)
+![Contact Us Page Lighthouse](docs/images/contact.lighthouse.png)
   - After going through the report I needed to make the ID's in the form input titles unique, instead of going through each and making new values for them I created a class making it easier to target them within the CSS stylesheet.
-![Fixed Contact Us Page Lighthouse](/assets/docs/images/new.contact.lighthouse.png)
+![Fixed Contact Us Page Lighthouse](docs/images/new.contact.lighthouse.png)
 
 As well as using lighthouse I found another [Independent Accessibility Checker](https://www.siteimprove.com/) to further improve my understanding of the accessibility of my website. 
-![Independent Check](assets/docs/images/self-check.png)
+![Independent Check](docs/images/self-check.png)
 After checking and going through all of the reports and editing on Dev Tools I feel much more comfortable and confident using HTML and CSS. On making my next project I will have a head start in making the site more accessible from the start thus ensuring I have more time to perfect the project and less time going over elements, of course still conducting regular tests.
 
 # Changes Along the Way 
