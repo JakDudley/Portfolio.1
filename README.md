@@ -175,7 +175,7 @@ I Used [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stacko
 - All content on the pages is that of my own. 
 - All icons I used on the page was used from [Font Awesome](https://fontawesome.com/).
 - My fonts were taken from [Google Fonts](https://fonts.google.com/)
-- My personal ![Independent Checker](assets/docs/images/self-check.png)
+- My personal [Independent Checker](assets/docs/images/self-check.png)
 - When it came to converting images to WEBp I used [Convertio](https://convertio.co/png-webp/)
 - To compress my images I used [TinyPNG](https://tinypng.com/)
 - To calculate pixels to rems I used [PX to Rem Calculator](https://nekocalc.com/px-to-rem-converter)
