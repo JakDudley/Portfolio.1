@@ -214,7 +214,7 @@ i {
     width: 65%
 }
 
-#review-page h3 {
+#review-page div {
     margin-left: auto;
     margin-right: auto;
     padding-right: 20%;
@@ -698,7 +698,7 @@ form {
         width: 100%;
     }
 
-    #review-page h3 {
+    #review-page {
         padding-right: 5%;
         font-size: 1rem;
     }
