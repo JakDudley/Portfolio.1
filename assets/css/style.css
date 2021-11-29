@@ -68,7 +68,7 @@ i {
 }
 
 .navbar a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     background-color: #566573
 }
@@ -177,7 +177,7 @@ i {
 /* Menu PageStyling */
 #container-menu h2,
 .menu-titles {
-    border-bottom: whitesmoke solid 50px;
+    border-bottom: whitesmoke solid 3.125rem;
     border-width: medium;
 }
 
@@ -248,7 +248,7 @@ label {
 }
 
 .number-contact h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
@@ -280,9 +280,9 @@ label {
     position: fixed;
     background: rgb(255, 255, 255, 0.1);
     text-align: left;
-    bottom: 0px;
+    bottom: 0;
     float: left;
-    padding-bottom: 15px;
+    padding-bottom: 0.938rem;
     color: #000000;
     font-size: 1.25rem;
 }
@@ -327,7 +327,7 @@ label {
 }
 
 input[type="text"] {
-    margin: 8px 0;
+    margin: 0.5rem 0;
     box-sizing: border-box;
 }
 
@@ -444,8 +444,8 @@ form {
     /* Links inside the dropdown */
     .dropdown-content a {
         float: none;
-        color: black;
-        padding: 12px 16px;
+        color: #000000;
+        padding: 0.75rem 1rem;
         text-decoration: none;
         display: block;
         text-align: left;
@@ -472,7 +472,10 @@ form {
 
     .desktop-message,
     .index-img,
-    .img-link {
+    .img-link,
+    #left-img,
+    #right-img,
+    #form-review-title {
         display: none;
     }
 
@@ -483,12 +486,6 @@ form {
 
     h2 {
         font-size: 0.938rem;
-    }
-
-    #left-img,
-    #right-img,
-    #form-review-title {
-        display: none;
     }
 
     #info-review {
@@ -532,7 +529,7 @@ form {
     }
 
     #contact-form {
-        inline-size: 20px;
+        inline-size: 1.25rem;
         float: left;
         padding-left: 0;
     }
@@ -625,7 +622,7 @@ form {
     }
 
     .social-footer {
-        background-color: white solid;
+        background-color: #FFFFFF solid;
     }
 
     .footer-main {
@@ -640,23 +637,16 @@ form {
         padding: 0;
     }
 
-    .desktop-message {
-        display: none;
-    }
-
-
     .img-link,
     #contact-from,
-    #container {
+    #container,
+    #form-review,
+    .desktop-message {
         display: none;
     }
 
     .mobile-title {
         font-size: 1rem;
-    }
-
-    #form-review {
-        display: none;
     }
 
     .phone-display {
@@ -682,7 +672,7 @@ form {
     #review-page {
         align-items: center;
         padding: 2px 2px;
-        margin-left: 30px;
+        margin-left: 1.875rem;
     }
 
     #container-form {
@@ -786,8 +776,8 @@ form {
     }
 }
 
-/* Samsung Tablets */
-@media screen and (min-width: 360px) {
+/* Samsung  */
+@media screen and (min-width: 360px) and (max-width: 360px) {
     #container {
         display: block;
     }
@@ -800,7 +790,7 @@ form {
     }
 
     .social-footer {
-        background-color: white solid;
+        background-color: #FFFFFF solid;
     }
 
     .footer-main {
@@ -843,5 +833,3 @@ form {
     }
 
 }
-
-@media (min-width:1025px) {}

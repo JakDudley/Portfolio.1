@@ -84,6 +84,8 @@ Throughout the course of my project, I made decisions that affected the way the 
 - On each of the forms I originally used a code from [W3](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_button) But after testing this feature out I realised that it did not clear the form like a submit button would. If my knowledge of JavaScript was better I would have kept this in but to keep my site as realistic and functional as possible I decided to stick with a simple submit type. 
 - When I started the project there were only in fact three pages, Home, Reviews and menu. Booking a table was on the home page as I wanted to force this upon the user, but it was pointed out to me by peers and fellow students that when they visited the site for the first time it didn't feel like they were on a home page and often tried refreshing the page. After hearing this feedback I decided to make the reserve page. By doing this I made an additional page that is now fully functional and created the home page we see today, with a simple paragraph and some images it quickly became a much better feeling site. 
 - The forms on media queries, at first I created the site for desktop and when it came to the forms for smaller devices it massively deformed the screen, so I took the initiative to create forms for smaller screens and displaying them as hidden, I found this to work effectively and also improved my ability in CSS. 
+- As stated above I have made changes to the nav 'bar' for mobile devices now displaying dropdown menu. 
+- I have also adjusted the footer on smaller devices to adjust the view of the content on the page.
 
 
  [Back to README](/README.md) 

@@ -1,7 +1,10 @@
 # Castleia 
 Castleia is a restaurant that I have plucked out of thin air, to make this restaurant a reality I have created a user-friendly website. As Castlia is a professional place to visit I wanted to create a sleek, smart and professional layout to match the quality.  
 
-![screenshot of responsive website](assets/docs/images/responsive.png)
+![screenshot of responsive website](assets/docs/images/responsive.png) 
+
+- My live project is located here [Castleia](https://jakdudley.github.io/Portfolio.1/)
+
 
 
 ## Project Aims 
@@ -175,13 +178,13 @@ i Used [W3 Schools](https://www.w3schools.com/), [Stack Overflow](https://stacko
 - My personal ![Independent Checker](assets/docs/images/self-check.png)
 - When it came to converting images to WEBp i used [Convertio](https://convertio.co/png-webp/)
 - To compress my images i used [TinyPNG](https://tinypng.com/)
+- To calculate pixels to rems i used [PX to Rem Calculator](https://nekocalc.com/px-to-rem-converter)
+
+# Media 
+- For all my images i used [Pexels](https://www.pexels.com/)
+- Screenshot thats on the top of README.md [Am I Responsive](http://ami.responsivedesign.is/)
 
 
 
-<!-- Add comments to HTML  -->
-<!-- add refrences  -->
-<!-- add credits -->
- <!-- image sources  -->
- <!-- coppied code -->
 
 
